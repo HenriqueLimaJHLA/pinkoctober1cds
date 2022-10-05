@@ -1,0 +1,62 @@
+* {
+margin: 0;
+padding: 0;
+}
+
+body {
+background: linear-gradient(90deg,deeppink,blue);	
+}
+
+nav a {
+text-decoration: none;
+text-decoration-line: none;	
+position: relative;
+top: 15px;
+}
+
+nav {
+background-color: white;
+height: 70px;
+font-size: 20px;
+font-family: cambria;
+text-align: center;
+word-spacing: 20px;	
+position: static;
+box-shadow: 2px 2px 25px black;
+}
+
+a:hover {	
+color: black;
+transition: 1s;
+}
+
+footer {
+background-color: white;
+height: 200px;
+margin-top: 347px;
+box-shadow: 2px 2px 25px black;	
+}
+
+#insta {
+height: 70px;
+width: 70px;
+}
+
+#insta:hover {
+transition: 3s;	
+transform: scale(1.2);	
+}
+
+p {
+text-align: center;
+padding-top: 30px;
+font-family: cambria;	
+}
+
+.img {
+display: flex;
+align-items: center;
+justify-content: center;	
+}
+
+
