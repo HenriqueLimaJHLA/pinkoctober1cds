@@ -21,11 +21,12 @@ body {
 .menuPrincipal{
     background-color: white;
     height: 70px;
+    weight: auto;
     font-size: 20px;
     font-family: cambria;
     text-align: center;
     word-spacing: 20px;	
-    position: fixed;
+    position: absolute;
     box-shadow: 2px 2px 25px black;
     padding: 15px;
     
@@ -116,7 +117,6 @@ footer{
     transform: scale(1.2);	
     
 }
-
 .l {
     width: 100px;
     height: 120px;
