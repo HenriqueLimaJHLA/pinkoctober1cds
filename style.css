@@ -115,3 +115,17 @@ footer{
     transform: scale(1.2);	
     
 }
+
+.laço2 {
+    width: 100px;
+    height: 120px;  
+    animation: laço infinite 2.5s;	
+    position: fixed;
+}
+
+@keyframes laço {	
+    from {transform: translateY(0px);}
+    to {transform: translateY(20px);}
+
+}
+
