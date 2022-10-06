@@ -21,12 +21,12 @@ body {
 .menuPrincipal{
     background-color: white;
     height: 70px;
-    weight: 100%;
     font-size: 20px;
     font-family: cambria;
     text-align: center;
     word-spacing: 20px;	
     position: absolute;
+    margin:0px;
     box-shadow: 2px 2px 25px black;
     padding: 15px;
     
