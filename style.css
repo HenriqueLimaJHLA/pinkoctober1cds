@@ -129,7 +129,7 @@ footer{
     height: 120px;
     animation: laço infinite 3s;
     position: fixed;
-    display: block;
+    margin-left: 30px;
 }
 
 @keyframes laço {	
