@@ -122,9 +122,8 @@ footer{
     animation: laço infinite 3s;
     position: sticky;
     margin: 30px;
-    display:block;
-}
 
+}
 @keyframes laço {	
     0% {transform: translateY(0px);}
     25% {transform: translateY(10px);}
