@@ -122,6 +122,8 @@ footer{
     width: 100px;
     height: 120px;
     animation: laço infinite 3s;
+    float: right;
+    transform: rotate(45deg); 
     position: absolute;
 
 }
