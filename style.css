@@ -8,9 +8,7 @@ body {
 
 }
 header{
-    width: 100%;
-    position: sticky;
-    top: 0;
+    
 
 }
 .menuPrincipal a{
@@ -21,18 +19,20 @@ header{
     text-decoration-style: none;
     color: hotpink;
     text-align: center;
+    position: fixed;
     
 }
 .menuPrincipal{
     background-color: white;
     height: 70px;
-    widht: 100%;
+    width: 100%;
+    position: sticky;
+    top: 0;
     font-size: 20px;
     font-family: cambria;
     text-align: center;
     word-spacing: 20px;
     display:block;
-    position: fixed;
     box-shadow: 2px 2px 25px black;
     padding: 15px;
     
@@ -128,7 +128,7 @@ footer{
     height: 120px;
     animation: laço infinite 3s;
     position: sticky;
-    margin-left: 30px;
+    margin: 30px;
 }
 
 @keyframes laço {	
