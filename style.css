@@ -7,10 +7,6 @@ body {
     background: linear-gradient(90deg,deeppink,blue);	
 
 }
-header{
-    
-
-}
 .menuPrincipal a{
     text-decoration: none;
     text-decoration-line: none;	
@@ -19,7 +15,6 @@ header{
     text-decoration-style: none;
     color: hotpink;
     text-align: center;
-    position: fixed;
     
 }
 .menuPrincipal{
@@ -32,7 +27,6 @@ header{
     font-family: cambria;
     text-align: center;
     word-spacing: 20px;
-    display:block;
     box-shadow: 2px 2px 25px black;
     padding: 15px;
     
