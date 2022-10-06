@@ -27,6 +27,7 @@ body {
     word-spacing: 20px;	
     position: static;
     box-shadow: 2px 2px 25px black;
+    padding: 15px;
     
 }
 a:hover{	
