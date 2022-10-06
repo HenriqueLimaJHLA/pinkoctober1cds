@@ -4,7 +4,8 @@
 }
 
 body {
-	background: linear-gradient(90deg,deeppink,blue);	
+	background: linear-gradient(90deg,deeppink,blue);
+	margin-top: 50px;
 }
 
 .menuPrincipal a{
