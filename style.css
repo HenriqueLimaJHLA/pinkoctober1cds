@@ -25,7 +25,8 @@ body {
     font-family: cambria;
     text-align: center;
     word-spacing: 20px;	
-    position: absolute;
+    position: sticky;
+    top: 0;
     margin:0px;
     box-shadow: 2px 2px 25px black;
     padding: 15px;
