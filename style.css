@@ -11,7 +11,7 @@ body {
     text-decoration: none;
     text-decoration-line: none;	
     font-size: 200;
-    position: relative;
+    display:block;
     top: 15px;
     text-decoration-style: none;
     color: hotpink;
