@@ -122,13 +122,12 @@ footer{
     width: 100px;
     height: 120px;
     animation: laço infinite 3s;
-    float: right;
-    margin-right: 30px;
+    margin-left: 1000px;
     position: absolute;
+    transform: rotate(45deg); 
 
 }
 @keyframes laço {	
-    transform: rotate(45deg); 
     0% {transform: translateY(0px);}
     25% {transform: translateY(10px);}
     50% {transform: translateY(20px);}
