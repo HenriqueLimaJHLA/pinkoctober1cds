@@ -4,7 +4,8 @@
 }
 
 body {
-    background: linear-gradient(90deg,deeppink,blue);	
+    background: linear-gradient(90deg,deeppink,blue);
+    margin-top: 50px;	
 
 }
 .menuPrincipal a{
@@ -121,7 +122,6 @@ footer{
     height: 120px;
     animation: laço infinite 3s;
     position: sticky;
-    margin: 30px;
 
 }
 @keyframes laço {	
