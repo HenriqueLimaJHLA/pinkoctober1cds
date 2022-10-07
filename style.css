@@ -58,7 +58,7 @@ p{
     content: attr(data-text);
     text-align: center;
     position: absolute;
-    margin-left: -115;
+    margin-left: -50;
     color: deeppink;
     -webkit-text-stroke:  0vw deeppink;
     overflow: hidden;
