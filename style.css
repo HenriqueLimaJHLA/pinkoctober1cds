@@ -50,15 +50,15 @@ p{
 #letra {
     position: relative;
     font-size: 5rem;
-    width: 290px;
-    color:#00FFFF;
+    width: 300px;
+    color:white;
 
 }
 #letra:before {
     content: attr(data-text);
     text-align: center;
     position: absolute;
-    margin-left: -95px;
+    position:center;
     color: deeppink;
     -webkit-text-stroke:  0vw deeppink;
     overflow: hidden;
