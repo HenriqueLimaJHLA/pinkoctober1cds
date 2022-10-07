@@ -42,22 +42,33 @@ p{
     padding-top: 30px;	
     
 }
-.tituloPrincipal{
-    padding-top: 50px;
-    padding-bottom: 100px;
-    
+.tituloPrincipal{ 
+    padding-top: 50px; 
+    padding-bottom: 100px; 
+
 }
-.october{
-    font-size: 30px;
-    text-align: center;
-    color: white;	
-    
+#letra {
+    position: relative;
+    font-size: 5rem;
+    width: 270px;
+    color:white;
+
 }
-.P, .I, .N, .K{
+#letra:before {
+    content: attr(data-text);
     text-align: center;
-    font-size: 80px;
-    color: white;	
-    
+    position: absolute;
+    margin-left: -100px;
+    color: deeppink;
+    -webkit-text-stroke:  0vw deeppink;
+    overflow: hidden;
+    animation: animate 6s linear infinite;
+
+}
+@keyframes animate {
+    0% { height: 0%; }	
+    70% {height: 100%;}
+
 }
 .espacamento{
     height: 25px;
@@ -71,7 +82,7 @@ p{
     padding-top: 50px;
     padding-bottom: 50px;
     color: white;
-    _
+
 }
 footer{
     background-color: white;
