@@ -51,15 +51,15 @@ p{
     position: relative;
     font-size: 5rem;
     width: 270px;
-    color:white;
+    color:black;
 
 }
 #letra:before {
     content: attr(data-text);
     text-align: center;
-    position: absolute;
-    margin-left: -100x;
-    color: deeppink;
+    position: sticker;
+    margin-left: -50px;
+    color: white;
     -webkit-text-stroke:  0vw deeppink;
     overflow: hidden;
     animation: animate 6s linear infinite;
