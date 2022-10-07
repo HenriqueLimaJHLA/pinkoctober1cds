@@ -103,7 +103,7 @@ footer{
     height: 120px;
     animation: laço infinite 3s;
     position: fixed;
-    transform: rotate(45deg); 
+    transform: rotate(70deg); 
 
 }
 @keyframes laço {	
