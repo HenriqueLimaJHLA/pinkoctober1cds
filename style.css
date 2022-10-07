@@ -57,6 +57,7 @@ p{
 .P{
     text-align: center;
     font-size: 80px;
+    position: relative;
     color: white;	
     
 }
@@ -77,6 +78,7 @@ p{
 .K{
     text-align: center;
     font-size: 80px;
+    position: relative;
     color: white;	
     
 }
