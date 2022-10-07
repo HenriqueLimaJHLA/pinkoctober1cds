@@ -4,7 +4,7 @@
 }
 
 body {
-    background: linear-gradient(90deg,deeppink,blue);
+    background: linear-gradient(180deg,deeppink,blue);
     margin-top: 50px;	
 
 }
@@ -101,9 +101,7 @@ footer{
     width: 100px;
     height: 120px;
     animation: laço infinite 3s;
-    position: fixed;
-    transform: rotate(70deg); 
-
+    
 }
 @keyframes laço {	
     0% {transform: translateY(0px);}
@@ -111,6 +109,11 @@ footer{
     50% {transform: translateY(20px);}
     100% {transform: translateY(0px);}
 }
-
+.L{
+    position: fixed;
+    right: 30px;
+    transform: rotate(70deg); 
+    top: 9px;
+}
 
 
