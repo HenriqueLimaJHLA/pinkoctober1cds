@@ -53,29 +53,7 @@ p{
     color: white;	
     
 }
-
-.P{
-    text-align: center;
-    font-size: 80px;
-    position: relative;
-    color: white;	
-    
-}
-.I{
-    text-align: center;
-    font-size: 80px;
-    position: relative;
-    color: white;	
-    
-}
-.N{
-    text-align: center;
-    font-size: 80px;
-    position: relative;
-    color: white;	
-    
-}
-.K{
+.P, .I, .N, .K{
     text-align: center;
     font-size: 80px;
     position: relative;
