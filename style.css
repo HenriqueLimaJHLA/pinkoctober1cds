@@ -51,14 +51,14 @@ p{
     position: relative;
     font-size: 5rem;
     width: 270px;
-    color:black;
+    color: black;
 
 }
 #letra:before {
     content: attr(data-text);
     text-align: center;
-    position: sticker;
-    margin-left: -50px;
+    position: absolute;
+    margin-left: 10px;
     color: white;
     -webkit-text-stroke:  0vw deeppink;
     overflow: hidden;
