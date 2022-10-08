@@ -124,6 +124,7 @@ footer{
 }
 .L{
     position: fixed;
+    z-index: 5;
     right: 30px;
     transform: rotate(15deg); 
     top: 9px;
