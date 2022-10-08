@@ -53,6 +53,7 @@ p{
     font-size: 5rem;
     width: 270px;
     color: #000;
+    z-index: 1
 
 }
 #letra:before {
@@ -64,7 +65,7 @@ p{
     -webkit-text-stroke:  0vw deeppink;
     overflow: hidden;
     animation: animate 6s linear infinite;
-
+    z-index: 2;
 }
 @keyframes animate {
     0% { height: 0%; }	
@@ -126,6 +127,7 @@ footer{
     right: 30px;
     transform: rotate(15deg); 
     top: 9px;
+    z-index: 4;
 }
 
 
