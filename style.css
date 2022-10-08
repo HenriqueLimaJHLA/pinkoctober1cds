@@ -53,14 +53,14 @@ p{
     font-size: 5rem;
     width: 270px;
     color: #000;
-    z-index: 1
+    z-index: 2;
 
 }
 #letra:before {
     content: attr(data-text);
     text-align: center;
     position: absolute;
-    margin-left: -120px;
+    margin-left: -106px;
     color: #fff;
     -webkit-text-stroke:  0vw deeppink;
     overflow: hidden;
