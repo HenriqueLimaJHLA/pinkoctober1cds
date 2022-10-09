@@ -99,27 +99,27 @@ footer{
     padding: 15px;
     
 }
-.redessociais img{
+.div img{
     height: 60px;
     width: 60px;
     position: relative;
     border: 20px solid white;
     box-shadow: 2px 2px 20px black;  
     border-radius: 35%;
-}
 
-.insta:hover {
 }
 
 .tt {
    transition: 2s; 
    position: relative;
    margin-left: 20px;
+
 }
 
 .tt:hover {
     border-color: #00acee;
     background-color: #00acee;
+
 }
 .l {
     width: 100px;
