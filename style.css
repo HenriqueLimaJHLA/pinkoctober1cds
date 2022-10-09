@@ -99,22 +99,32 @@ footer{
     padding: 15px;
     
 }
-#insta{
-    height: 70px;
-    width: 70px;
-    margin-left: 46%;
-    
+.redessociais img{
+    height: 60px;
+    width: 60px;
+    position: relative;
+    border: 20px solid white;
+    box-shadow: 2px 2px 20px black;  
+    border-radius: 35%;
 }
-#insta:hover {
-    transition: 3s;	
-    transform: scale(1.2);	
-    
+
+.insta:hover {
+}
+
+.tt {
+   transition: 2s; 
+   position: relative;
+   margin-left: 20px;
+}
+
+.tt:hover {
+    border-color: #00acee;
+    background-color: #00acee;
 }
 .l {
     width: 100px;
     height: 120px;
-    animation: laço infinite 3s;
-    
+    animation: laço infinite 3s;   
 }
 @keyframes laço {	
     0% {transform: translateY(0px);}
