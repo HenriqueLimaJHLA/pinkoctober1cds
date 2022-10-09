@@ -1,1 +1,1 @@
-alert ('TESTE');
+alert ("TESTE")
