@@ -1,11 +1,12 @@
 * {
-	margin: 0;
-	padding: 0;
+    margin: 0;
+    padding: 0;
 }
 
 body {
-	background: linear-gradient(90deg,deeppink,blue);
-	margin-top: 50px;
+    background: linear-gradient(180deg,deeppink,blue);
+    margin-top: 50px;	
+
 }
 
 .menuPrincipal a{
