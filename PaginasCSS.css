@@ -39,7 +39,40 @@ a:hover{
 }   
 .conteudo {
     height: 1500px;   
-}  
+} 
+
+.img {
+    height: 100px;
+    width: 100px; 
+    border-radius: 50%;    
+    margin-left: 100px;
+    position: relative;
+    top: 10px;
+    box-shadow: 1px 1px 20px black;
+}
+
+.nome {
+    color: white;
+    margin-left: 95px; 
+    position: relative;
+    top: 14px;    
+}
+
+.p {
+   height: 400px;
+   width: 600px;
+   border-radius: 5%;
+   box-shadow: 2px 2px 25px black;
+   background: white; 
+   position: relative;
+   margin-left: 270px;
+   bottom: 120px;
+   color: black;
+}
+
+p {
+    font-size: 3vh;    
+}
 
 .text {
 position: relative;
