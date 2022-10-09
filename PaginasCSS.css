@@ -31,7 +31,7 @@ body {
     word-spacing: 20px;
     box-shadow: 2px 2px 25px black;
     padding: 15px;
-    z-index: auto;
+    z-index: 2;
     
 }
 a:hover{	
@@ -96,7 +96,7 @@ margin-left: 20px    ;
 .center {
     position: relative;
     margin-left: 80px;
-    z-index: 2;
+    z-index: 0;
 }
 .button:hover {
     transition: 3s;
