@@ -104,3 +104,54 @@ margin-left: 20px    ;
     background-color: white;
     color: #f6007b;   
 }
+.porCima{
+    height: 100%;
+    width: 0%;
+    position: fixed;
+    top: 0%;
+    right: 0%;
+    background-color: rgba(0,0,0,.7);
+    
+}
+.caixaMenu{
+    width: 4%;
+    float:right;
+    margin-right: 7%;
+    display:inline-block;
+    overflow-y: scroll;
+}
+.menuLado{
+    overflow: hidden;
+    background-color: white;    
+    position: fixed;
+    top: 0;
+    right: -749px;
+    height: 100%;
+    transition: 0.5s;
+    width: 20%;
+    z-index: auto;
+    
+}
+.menuImg{
+    width: 50%;
+    height: 50%;
+    
+}
+.menu-aberto{
+    position:fixed;
+    display: inline-block;
+    text-transform: uppercase;
+    z-index: 0;
+      
+}
+.menuLado a, .menu-fechado{
+    display: block;
+    
+}
+
+.menu-fechado {
+    width: 40%;
+    position: relative;
+    margin-left: 170px;    
+}
+
