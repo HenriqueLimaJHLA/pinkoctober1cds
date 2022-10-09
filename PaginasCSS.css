@@ -39,4 +39,33 @@ a:hover{
 }   
 .conteudo {
     height: 1500px;   
-}    
+}  
+
+.text {
+position: relative;
+margin-left: 20px    ;    
+}
+
+.button {
+    border: none;
+    border-radius: 8%;
+    width: 110px;
+    height: 50px;
+    position: relative;
+    margin-left: 510px;
+    bottom:100px;    
+    color: white;
+    background-color: #f6007b;
+    font-size: 16px;
+    font-family: roboto;
+}
+.center {
+    position: relative;
+    margin-left: 80px;   
+}
+.button:hover {
+    transition: 3s;
+    border: 1px solid #f6007b;
+    background-color: white;
+    color: #f6007b;   
+}
