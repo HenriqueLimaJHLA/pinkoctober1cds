@@ -155,7 +155,9 @@ footer{
     border: none;
     cursor: pointer;
     float:left;
-    top: 50%;
+    position: relative;
+    top: 70%;
+    left: 5%;
     
 }
 .Voltar img{
@@ -174,7 +176,9 @@ footer{
     border: none;
     cursor: pointer;
     float: right;
-    top: 50%;
+    position: relative;
+    top: 70%;
+    right: 5%;
 }
 
 .Avançar img{
