@@ -103,7 +103,7 @@
 }
 .espacamento{
     height: 25px;
-    width: 100%;
+    width: 978px;
     background: #fff;
     box-shadow: 2px 2px 25px black;
     
@@ -117,7 +117,7 @@
 }
 footer{
     background-color: white;
-    height: 100px;
+    height: 150px;
     padding: 10px;
     box-shadow: 2px 2px 25px black;	
     align-items: center;
@@ -133,8 +133,8 @@ footer{
     height: 15px;
     width: 15px;
     position: relative;
-    border: 15px solid white;
-    box-shadow: 1px 1px 10px black;  
+    border: 10px solid white;
+    box-shadow: 1px 1px 5px black;  
     border-radius: 35%;
 
 }
