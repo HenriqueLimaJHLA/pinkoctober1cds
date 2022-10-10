@@ -12,7 +12,7 @@
     font-family: cambria;
     word-spacing: 20px;
     box-shadow: 2px 2px 25px black;
-    padding: 15px;
+    padding: 20px;
     z-index: 4;
 
 }
@@ -24,7 +24,7 @@
     text-decoration-style: none;
     color: #f6007b;
     position: relative;
-    right: 50px;
+    
 }
 
 .l {
@@ -47,8 +47,7 @@
 }
 
 .tituloPrincipal{ 
-    left: 5%;
-    right: 5%;
+    text-align: center;
     max-width: 100%;
     font-size: 50px;
     padding-top: 50px; 
@@ -61,7 +60,7 @@
     width: 270px;
     color: #000;
     z-index: 2;
-
+    text-align: center;
 }
 
 .Voltar {
@@ -70,8 +69,8 @@
     cursor: pointer;
     float: left;
     position: relative;
-    top:-60%;
-    left: -20%;
+    left: 10%;
+    top:45%;
     
 }
 
@@ -81,8 +80,9 @@
     cursor: pointer;
     float: right;
     position: relative;
-    top:-60%;
-    right: -20%;
+    left: 10%;
+    right:45%;
+    
 }
 
 .Voltar img{
@@ -103,7 +103,7 @@
 }
 .espacamento{
     height: 25px;
-    max-width: 100%;
+    width: auto;
     background: #fff;
     box-shadow: 2px 2px 25px black;
     
@@ -141,7 +141,7 @@ footer{
 }
 .imagens{
     position: relative;
-    height: 100%;
+    width: 100%;
     padding: 20px;
     
 }
