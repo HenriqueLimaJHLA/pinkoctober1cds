@@ -149,3 +149,34 @@ footer{
 #troca_imagens{
     border-radius: 15px;
 }
+.Voltar {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.Voltar img{
+    width: 100px;
+    height: 100px;
+    transform: rotate(180deg);
+}
+
+.Voltar img:hover {
+    filter: invert(100%);    
+}
+
+
+.Avançar {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.Avançar img{
+    width: 100px;
+    height: 100px; 
+}
+
+.Avançar img:hover {
+    filter: invert(100%);    
+}
