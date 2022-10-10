@@ -8,7 +8,7 @@
     max-width: 100%;
     position: fixed;
     top: 0;
-    font-size: 20px;
+    font-size: 15px;
     font-family: cambria;
     word-spacing: 20px;
     box-shadow: 2px 2px 25px black;
@@ -20,11 +20,10 @@
 .menuPrincipal a{
     text-decoration: none;
     text-decoration-line: none; 
-    font-size: 200;
     text-decoration-style: none;
     color: #f6007b;
     position: relative;
-    
+    right:15px;
 }
 
 .l {
@@ -43,16 +42,14 @@
     z-index: 5;
     right: 2%;
     transform: rotate(15deg); 
-    top: 8%;
+    top: 10%;
 }
 
 .tituloPrincipal{ 
     text-align: center;
     max-width: 100%;
-    font-size: 50px;
+    font-size: 45px;
     padding-top: 50px; 
-    padding-left:10px;
-    padding-right:10px
     padding-bottom: 100px; 
 
 }
@@ -70,7 +67,7 @@
     border: none;
     cursor: pointer;
     float: left;
-    position: relative;
+    position: fixed;
     left: 10%;
     top:45%;
     
@@ -81,9 +78,9 @@
     border: none;
     cursor: pointer;
     float: right;
-    position: relative;
-    left: 10%;
-    right:45%;
+    position: fixed;
+    right: 10%;
+    top:45%;
     
 }
 
@@ -143,7 +140,7 @@ footer{
 }
 .imagens{
     position: relative;
-    width: 70%;
+    width: 80%;
     padding: 5px;
     
 }
