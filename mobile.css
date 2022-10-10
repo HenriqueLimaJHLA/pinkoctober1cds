@@ -24,7 +24,7 @@
     text-decoration-style: none;
     color: #f6007b;
     position: relative;
-    text-align: center;
+    left: 50px;
 }
 
 .l {
@@ -103,7 +103,7 @@
 }
 .espacamento{
     height: 25px;
-    width: 978px;
+    max-width: 100%;
     background: #fff;
     box-shadow: 2px 2px 25px black;
     
@@ -117,7 +117,8 @@
 }
 footer{
     background-color: white;
-    height: 150px;
+    height: 200px;
+    max-width: 100%;
     padding: 10px;
     box-shadow: 2px 2px 25px black;	
     align-items: center;
@@ -130,10 +131,10 @@ footer{
     
 }
 .redessociais img{
-    height: 15px;
-    width: 15px;
+    height: 30px;
+    width: 30px;
     position: relative;
-    border: 10px solid white;
+    border: 5px solid white;
     box-shadow: 1px 1px 5px black;  
     border-radius: 35%;
 
