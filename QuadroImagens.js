@@ -8,7 +8,6 @@ function proximo() {
     imagens()
     ordemImg = (ordemImg + 1) % img.length; 
     imagem.src = img[ordemImg]
-    console.log(ordemImg);
 }
 function voltar() {
     var imagem = document.getElementById('troca_imagens')    
@@ -24,7 +23,6 @@ function voltar() {
         imagem.src = img[ordemImg]
         
     }
-    console.log(ordemImg);
 }
 function imagens() {
     
