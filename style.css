@@ -154,13 +154,13 @@ footer{
     background-color: transparent;
     border: none;
     cursor: pointer;
-    
+    float:left;
+    top: 50%;
     
 }
-
 .Voltar img{
-    width: 100px;
-    height: 100px;
+    width: 75px;
+    height: 75px;
     transform: rotate(180deg);
 }
 
@@ -173,11 +173,13 @@ footer{
     background-color: transparent;
     border: none;
     cursor: pointer;
+    float: right;
+    top: 50%;
 }
 
 .Avançar img{
-    width: 100px;
-    height: 100px; 
+    width: 75px;
+    height: 75px; 
 }
 
 .Avançar img:hover {
