@@ -153,6 +153,9 @@ footer{
     background-color: transparent;
     border: none;
     cursor: pointer;
+    float: left;
+    line-height: 100px;
+    
 }
 
 .Voltar img{
