@@ -48,10 +48,10 @@
 .tituloPrincipal{ 
     text-align: center;
     max-width: 100%;
-    font-size: 45px;
-    padding-top: 50px; 
-    padding-bottom: 100px;
-    padding-left:10px;
+    font-size: 35px;
+    padding-top: 30px; 
+    padding-bottom: 50px;
+    padding-left:20px;
 
 }
 #letra {
@@ -69,8 +69,8 @@
     cursor: pointer;
     float: left;
     position: sticker;
-    left: 10%;
-    top:45%;
+    left: 5%;
+    top:15%;
     
 }
 
@@ -80,8 +80,8 @@
     cursor: pointer;
     float: right;
     position: sticker;
-    right: 10%;
-    top:45%;
+    right: 5%;
+    top:15%;
     
 }
 
@@ -110,7 +110,7 @@
 }
 .parteConteudo{
     height: 1000px;
-    padding-top: 100px;
+    padding-top: 80px;
     padding-bottom: 50px;
     color: white;
 
@@ -147,4 +147,5 @@ footer{
 }
 #troca_imagens{
     border-radius: 10%;
+    posiotion: relative;
 }
