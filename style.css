@@ -140,5 +140,11 @@ footer{
     transform: rotate(15deg); 
     top: 9px;
 }
-
-
+.imagens{
+    position: relative;
+    height: 200px;
+    width: 500px;
+}
+#troca_imagens{
+    
+}
