@@ -63,7 +63,7 @@
     text-align: center;
 }
 
-.Voltar {
+#Voltar {
     background-color: transparent;
     border: none;
     cursor: pointer;
@@ -74,7 +74,7 @@
     
 }
 
-.Avançar {
+#Avançar {
     background-color: transparent;
     border: none;
     cursor: pointer;
@@ -85,13 +85,13 @@
     
 }
 
-.Voltar img{
+#Voltar img{
     width: 30px;
     height: 30px;
     transform: rotate(180deg);
 }
 
-.Avançar img{
+#Avançar img{
     width: 30px;
     height: 30px; 
 }
