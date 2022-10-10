@@ -12,7 +12,7 @@
     font-family: cambria;
     word-spacing: 20px;
     box-shadow: 2px 2px 25px black;
-    padding: 20px;
+    padding: 15px;
     z-index: 4;
 
 }
@@ -51,6 +51,8 @@
     max-width: 100%;
     font-size: 50px;
     padding-top: 50px; 
+    padding-left:10px;
+    padding-right:10px
     padding-bottom: 100px; 
 
 }
@@ -141,8 +143,8 @@ footer{
 }
 .imagens{
     position: relative;
-    width: 100%;
-    padding: 20px;
+    width: 70%;
+    padding: 5px;
     
 }
 #troca_imagens{
