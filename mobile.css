@@ -1,0 +1,93 @@
+* {
+    max-width: 100%;
+}
+
+.menuPrincipal{
+    background-color: white;
+    height: 100px;
+    max-width: 100%;
+    position: fixed;
+    top: 0;
+    font-size: 20px;
+    font-family: cambria;
+    word-spacing: 20px;
+    box-shadow: 2px 2px 25px black;
+    padding: 15px;
+    z-index: 4;
+
+}
+
+.menuPrincipal a{
+    text-decoration: none;
+    text-decoration-line: none; 
+    font-size: 200;
+    text-decoration-style: none;
+    color: #f6007b;
+    position: relative;
+    right: 3%;
+}
+
+.l {
+    width: 90px;
+    height: 110px;
+    animation: laço infinite 3s;   
+}
+@keyframes laço {   
+    0% {transform: translateY(0px);}
+    25% {transform: translateY(10px);}
+    50% {transform: translateY(20px);}
+    100% {transform: translateY(0px);}
+}
+.L{
+    position: fixed;
+    z-index: 5;
+    right: %;
+    transform: rotate(15deg); 
+    top: 12%;
+}
+
+.tituloPrincipal{ 
+    padding-top: 50px; 
+    padding-bottom: 100px; 
+
+}
+#letra {
+    position: relative;
+    font-size: 5rem;
+    width: 270px;
+    color: #000;
+    z-index: 2;
+
+}
+
+.Voltar {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    float: left;
+    position: relative;
+    top:-60%;
+    left: -20%;
+    
+}
+
+.Avançar {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    float: right;
+    position: relative;
+    top:-60%;
+    right: -20%;
+}
+
+.Voltar img{
+    width: 50px;
+    height: 50px;
+    transform: rotate(180deg);
+}
+
+.Avançar img{
+    width: 50px;
+    height: 50px; 
+}
