@@ -131,11 +131,11 @@ footer{
     
 }
 .redessociais img{
-    height: 30px;
-    width: 30px;
+    height: 20px;
+    width: 20px;
     position: relative;
-    border: 5px solid white;
-    box-shadow: 1px 1px 5px black;  
+    border: 10px solid white;
+    box-shadow: 1px 1px 5px black;    
     border-radius: 35%;
 
 }
