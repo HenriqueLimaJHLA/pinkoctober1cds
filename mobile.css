@@ -147,3 +147,112 @@ footer{
 #troca_imagens{
     border-radius: 10%;
 }
+
+.img {
+    height: 80px;
+    width: 80px; 
+    border-radius: 50%;    
+    margin-left: 4%;
+    position: relative;
+    top: -20px;
+    box-shadow: 1px 1px 20px black;
+}
+
+.nome {
+    color: white;
+    margin-left: 6%; 
+    position: relative;
+    top: -20px;   
+}
+
+.p {
+   height: 200px;
+   width: 400px;
+   border-radius: 5%;
+   box-shadow: 2px 2px 25px black;
+   background: white; 
+   position: relative;
+   margin-left: 22%;
+   bottom: 120px;
+   color: black;
+}
+
+p {
+    font-size: 3vh;    
+}
+
+.text {
+    position: relative;
+    margin-left: 3%;    
+}
+
+.button {
+    border: none;
+    border-radius: 8%;
+    width: 100px;
+    height: 40px;
+    position: relative;
+    margin-left: 45%;
+    bottom:100px;    
+    color: white;
+    background-color: #f6007b;
+    font-size: 16px;
+    font-family: roboto;
+}
+.center {
+    position: relative;
+    top: 10%;
+    margin-left: 20px;
+    z-index: 0;
+}
+
+.porCima{
+    height: 100%;
+    width: 0%;
+    position: fixed;
+    top: 0%;
+    right: 0%;
+    background-color: rgba(0,0,0,.7);
+    
+}
+.caixaMenu{
+    width: 4%;
+    float:right;
+    margin-right: 7%;
+    display:inline-block;
+    overflow-y: scroll;
+}
+.menuLado{
+    overflow: hidden;
+    background-color: white;    
+    position: fixed;
+    top: 0;
+    right: -749px;
+    height: 100%;
+    transition: 0.5s;
+    width: 25%;
+    z-index: auto;
+    
+}
+.menuImg{
+    width: 90%;
+    height: 90%;
+    
+}
+.menu-aberto{
+    position:fixed;
+    display: inline-block;
+    text-transform: uppercase;
+    z-index: 0;
+      
+}
+.menuLado a, .menu-fechado{
+    display: block;   
+}
+
+.menuImgF {
+    width: 40%;
+    height: 40%;
+    position: relative;
+    right: 60px;
+}
