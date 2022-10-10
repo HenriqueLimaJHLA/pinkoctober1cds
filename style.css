@@ -150,7 +150,7 @@ footer{
 #troca_imagens{
     border-radius: 15px;
 }
-.Voltar {
+#Voltar {
     background-color: transparent;
     border: none;
     cursor: pointer;
@@ -160,18 +160,12 @@ footer{
     left: 5%;
     
 }
-.Voltar img{
+#Voltar img{
     width: 75px;
     height: 75px;
     transform: rotate(180deg);
 }
-
-.Voltar img:hover {
-    filter: invert(100%);    
-}
-
-
-.Avançar {
+#Avançar {
     background-color: transparent;
     border: none;
     cursor: pointer;
@@ -181,11 +175,11 @@ footer{
     right: 5%;
 }
 
-.Avançar img{
+#Avançar img{
     width: 75px;
     height: 75px; 
 }
 
-.Avançar img:hover {
+.mudaCor img:hover {
     filter: invert(100%);    
 }
