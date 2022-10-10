@@ -154,4 +154,18 @@ margin-left: 20px    ;
     position: relative;
     margin-left: 170px;    
 }
+.fundobotao {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.fundobotao img{
+    width: 100px;
+    height: 100px; 
+}
+
+.fundobotao img:hover {
+    filter: invert(100%);    
+}
 
