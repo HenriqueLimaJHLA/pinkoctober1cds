@@ -143,6 +143,7 @@ footer{
 .imagens{
     position: relative;
     height: 200px;
+    padding: 100px;
     
     
 }
@@ -155,6 +156,7 @@ footer{
     cursor: pointer;
     float: left;
     line-height: 100px;
+    margin-left: 100px;
     
 }
 
