@@ -1,0 +1,60 @@
+* {
+    width: 50%  ;
+}
+
+.menuPrincipal{
+    background-color: white;
+    height: 100px;
+    max-width: 100%;
+    position: fixed;
+    top: 0;
+    font-size: 25px;
+    font-family: cambria;
+    word-spacing: 20px;
+    box-shadow: 2px 2px 25px black;
+    padding: 15px;
+    z-index: 4;
+
+}
+
+.menuPrincipal a{
+    text-decoration: none;
+    text-decoration-line: none; 
+    font-size: 200;
+    text-decoration-style: none;
+    color: #f6007b;
+    position: relative;
+    right: 1%;
+}
+
+.l {
+    width: 90px;
+    height: 110px;
+    animation: laço infinite 3s;   
+}
+@keyframes laço {   
+    0% {transform: translateY(0px);}
+    25% {transform: translateY(10px);}
+    50% {transform: translateY(20px);}
+    100% {transform: translateY(0px);}
+}
+.L{
+    position: fixed;
+    z-index: 5;
+    right: -28%;
+    transform: rotate(15deg); 
+    top: 12%;
+}
+
+.tituloPrincipal{ 
+    padding-top: 50px; 
+    padding-bottom: 100px;
+    text-align: center; 
+
+}
+#letra {
+    position: relative;
+    font-size: 5rem;
+    width: 270px;
+    color: #000;
+    z-index: 2;
