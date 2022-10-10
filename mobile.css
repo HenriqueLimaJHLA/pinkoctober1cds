@@ -5,7 +5,7 @@
 .menuPrincipal{
     background-color: white;
     height: 70px;
-    max-width: 95%;
+    max-width: 100%;
     position: fixed;
     top: 0;
     font-size: 20px;
@@ -28,14 +28,14 @@
 }
 
 .l {
-    width: 50px;
-    height: 70px;
+    width: 45px;
+    height: 65px;
     animation: laço infinite 3s;   
 }
 @keyframes laço {   
     0% {transform: translateY(0px);}
-    25% {transform: translateY(10px);}
-    50% {transform: translateY(20px);}
+    25% {transform: translateY(5px);}
+    50% {transform: translateY(15px);}
     100% {transform: translateY(0px);}
 }
 .L{
@@ -47,8 +47,9 @@
 }
 
 .tituloPrincipal{ 
-    left: 0%;
-    max-width: 95%;
+    left: 5%;
+    right: 5%;
+    max-width: 100%;
     font-size: 50px;
     padding-top: 50px; 
     padding-bottom: 100px; 
@@ -85,12 +86,64 @@
 }
 
 .Voltar img{
-    width: 50px;
-    height: 50px;
+    width: 30px;
+    height: 30px;
     transform: rotate(180deg);
 }
 
 .Avançar img{
-    width: 50px;
-    height: 50px; 
+    width: 30px;
+    height: 30px; 
+}
+#letra:before {
+    content: none;
+    text-align: center;
+    animation: none;
+    z-index: 2;
+}
+.espacamento{
+    height: 25px;
+    width: 100%;
+    background: #fff;
+    box-shadow: 2px 2px 25px black;
+    
+}
+.parteConteudo{
+    height: 1000px;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    color: white;
+
+}
+footer{
+    background-color: white;
+    height: 100px;
+    padding: 10px;
+    box-shadow: 2px 2px 25px black;	
+    align-items: center;
+    
+}
+.escritaFooter{
+    text-align: center;
+    padding: 10px;
+    font-family: roboto;
+    
+}
+.redessociais img{
+    height: 15px;
+    width: 15px;
+    position: relative;
+    border: 15px solid white;
+    box-shadow: 1px 1px 10px black;  
+    border-radius: 35%;
+
+}
+.imagens{
+    position: relative;
+    height: 100%;
+    padding: 20px;
+    
+}
+#troca_imagens{
+    border-radius: 10%;
 }
