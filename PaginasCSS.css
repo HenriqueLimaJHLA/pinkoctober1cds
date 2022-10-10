@@ -154,35 +154,3 @@ margin-left: 20px    ;
     position: relative;
     margin-left: 170px;    
 }
-.fundobotao {
-    background-color: transparent;
-    border: none;
-    cursor: pointer;
-}
-
-.fundobotao img{
-    width: 100px;
-    height: 100px;
-    transform: rotate(180deg);
-}
-
-.fundobotao img:hover {
-    filter: invert(100%);    
-}
-
-
-.fundobotao2 {
-    background-color: transparent;
-    border: none;
-    cursor: pointer;
-}
-
-.fundobotao2 img{
-    width: 100px;
-    height: 100px; 
-}
-
-.fundobotao2 img:hover {
-    filter: invert(100%);    
-}
-
