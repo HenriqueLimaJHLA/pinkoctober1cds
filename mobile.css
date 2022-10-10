@@ -24,7 +24,7 @@
     text-decoration-style: none;
     color: #f6007b;
     position: relative;
-    right: %;
+    right: 3%;
 }
 
 .l {
@@ -66,8 +66,8 @@
     cursor: pointer;
     float: left;
     position: relative;
-    top:-90%;
-    left: -20%;
+    top:-60%;
+    left: -30%;
     
 }
 
@@ -77,5 +77,22 @@
     cursor: pointer;
     float: right;
     position: relative;
-    top:-90%;
-    right: -20%;
+    top:-60%;
+    right: -30%;
+}
+
+.Voltar img{
+    width: 50px;
+    height: 50px;
+    transform: rotate(180deg);
+}
+
+.Avançar img{
+    width: 50px;
+    height: 50px; 
+}
+
+.imagens {
+    width: 700px;
+    height: 500px;    
+}
