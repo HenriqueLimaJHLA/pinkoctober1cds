@@ -5,7 +5,7 @@
 .menuPrincipal{
     background-color: white;
     height: 100px;
-    max-width: 100%;
+    max-width: 90%;
     position: fixed;
     top: 0;
     font-size: 20px;
@@ -28,8 +28,8 @@
 }
 
 .l {
-    width: 90px;
-    height: 110px;
+    width: 70px;
+    height: 90px;
     animation: laço infinite 3s;   
 }
 @keyframes laço {   
