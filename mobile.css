@@ -1,0 +1,25 @@
+.menuPrincipal{
+    background-color: white;
+    height: 100px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    font-size: 20px;
+    font-family: cambria;
+    word-spacing: 20px;
+    box-shadow: 2px 2px 25px black;
+    padding: 15px;
+    z-index: 4;
+    right: 20%;
+
+}
+
+.menuPrincipal a{
+    text-decoration: none;
+    text-decoration-line: none; 
+    font-size: 200;
+    text-decoration-style: none;
+    color: #f6007b;
+    margin-top: 20px;
+
+}
