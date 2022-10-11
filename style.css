@@ -180,6 +180,9 @@ footer{
     height: 75px; 
 }
 
-.mudaCor img:hover {
+.mudaCor1 img:hover {
     filter: invert(100%);    
+}
+.mudaCor2 img:hover {
+    filter: invert(50%);    
 }
