@@ -1,6 +1,7 @@
 var ordemImg = 0
 var img= []
 var numeroBotao
+var tempo
 
 function proximo() {
     var imagem = document.getElementById('troca_imagens')    
