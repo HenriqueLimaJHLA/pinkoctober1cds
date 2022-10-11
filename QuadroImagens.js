@@ -42,16 +42,16 @@ function imagens() {
 function hover(){
     if(numeroBotao === 1){
          var botao = document.getElementById('Voltar')
-         botao.classList= 'mudaCor'
+         botao.classList= "mudaCor"
 
-         setTimeout(botao.classList='',1000)
+         setTimeout(botao.classList=" ",1000)
 
     }
     if(numeroBotao === 2){
          var botao = document.getElementById('Avançar')
-         botao.classList= 'mudaCor'
+         botao.classList= "mudaCor"
          
-         setTimeout(botao.classList='',1000)
+         setTimeout(botao.classList=" ",1000)
 
     }
 
