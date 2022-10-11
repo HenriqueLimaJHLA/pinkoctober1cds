@@ -48,15 +48,13 @@
 .tituloPrincipal{ 
     text-align: center;
     max-width: 100%;
-    font-size: 35px;
-    padding-top: 30px; 
     padding-bottom: 50px;
     padding-left:20px;
 
 }
 #letra {
     position: relative;
-    font-size: 5rem;
+    font-size: 3rem;
     width: 270px;
     color: #000;
     z-index: 2;
@@ -98,7 +96,7 @@
 #letra:before {
     content: none;
     text-align: center;
-    animation: none;
+    
     z-index: 2;
 }
 .espacamento{
