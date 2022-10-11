@@ -260,12 +260,12 @@ p {
     bottom: 15px;    
 }
 .parteVideo {
+    padding: 20px;
     width: 100%;
     height: 100%;
 
 }
 .video {
-    width: 80%;
-    height: 80%;
+    width: auto;
 
 }
