@@ -183,6 +183,3 @@ footer{
 .mudaCor1 img:hover {
     filter: invert(100%);    
 }
-.mudaCor2 img:hover {
-    filter: invert(50%);    
-}
