@@ -218,6 +218,7 @@ p {
 }
 .caixaMenu{
     float:right;
+    right: 5%;
     display:inline-block;
     overflow-y: scroll;
 }
