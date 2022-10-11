@@ -42,16 +42,16 @@
 .L{
     position: fixed;
     z-index: 5;
-    right: 3%;
+    right: 4%;
     transform: rotate(15deg); 
-    top: 10%;
+    top: 8%;
 }
 
 .tituloPrincipal{ 
     text-align: center;
     max-width: 30%;
     padding-bottom: 50px;
-    padding-left: 5%;
+    padding-left: 10px;
 }
 #letra {
     position: relative;
