@@ -8,7 +8,6 @@
     max-width: 100%;
     position: fixed;
     top: 0;
-    font-size: 15px;
     font-family: cambria;
     word-spacing: 20px;
     box-shadow: 2px 2px 25px black;
@@ -24,6 +23,7 @@
     text-decoration-style: none;
     color: #f6007b;
     position: relative;
+    font-size: 15px;
     
 }
 .noMenu a{
