@@ -120,7 +120,6 @@ margin-left: 3%;
     float:right;
     margin-right: 7%;
     display:inline-block;
-    overflow-y: scroll;
 }
 .menuLado{
     overflow: hidden;
@@ -135,8 +134,7 @@ margin-left: 3%;
     
 }
 .menuImg{
-    width: 50%;
-    height: 50%;
+    width: 60%;
     
 }
 .menu-aberto{
@@ -152,7 +150,7 @@ margin-left: 3%;
 }
 
 .menu-fechado {
-    width: 40%;
+    width: 25%;
     position: relative;
     margin-left: 170px;    
 }
