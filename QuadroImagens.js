@@ -42,19 +42,20 @@ function imagens() {
 function hover(){
     if(numeroBotao === 1){
          var botao = document.getElementById('Voltar')
-         
-         botao.className= "mudaCor"
-         var timeout = false;
-         timeout = setTimeout(function (){botao.className= ""},1000)
-         
+        
+         clearTimeout(tempo)
+         botao.className= "mudaCor1"
+         tempo = setTimeout(function (){botao.className= "mudaCor2"},1000)
+         tempo = setTimeout(function (){botao.className= ""},500)
 
     }
     if(numeroBotao === 2){
          var botao = document.getElementById('Avançar')
          
-         botao.className= "mudaCor"
-         var timeout = false;
-         timeout = setTimeout(function (){botao.className= ""},1000)
+         clearTimeout(tempo)
+         botao.className= "mudaCor1"
+         tempo = setTimeout(function (){botao.className= "mudaCor2"},1000)
+         tempo = setTimeout(function (){botao.className= ""},500)
          
 
     }
