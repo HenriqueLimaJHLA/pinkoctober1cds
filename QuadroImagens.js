@@ -44,12 +44,18 @@ function hover(){
          var botao = document.getElementById('Voltar')
          
          botao.className= "mudaCor"
+         var timeout = false;
+         timeout = setTimeout(function (){botao.className= ""},1000)
+         
 
     }
     if(numeroBotao === 2){
          var botao = document.getElementById('Avançar')
          
          botao.className= "mudaCor"
+         var timeout = false;
+         timeout = setTimeout(function (){botao.className= ""},1000)
+         
 
     }
 
