@@ -43,14 +43,14 @@ function hover(){
     if(numeroBotao === 1){
          var botao = document.getElementById('Voltar')
          
-         setTimeout(botao.classList= "mudaCor",1000)
+         setTimeout(botao.classList= "mudaCor",10000)
          botao.classList=" "
 
     }
     if(numeroBotao === 2){
          var botao = document.getElementById('Avançar')
          
-         setTimeout(botao.classList= "mudaCor",1000)
+         setTimeout(botao.classList= "mudaCor",10000)
          botao.classList=" "
 
     }
