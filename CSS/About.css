@@ -41,3 +41,8 @@ a:hover{
 .conteudo {
     height: 1000px;   
 } 
+@media (max-width: 640px) {
+
+
+
+}
