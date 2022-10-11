@@ -1,0 +1,271 @@
+* {
+    max-width: 100%;
+}
+
+.menuPrincipal{
+    background-color: white;
+    height: 60px;
+    max-width: 100%;
+    position: fixed;
+    top: 0;
+    font-size: 15px;
+    font-family: cambria;
+    word-spacing: 20px;
+    box-shadow: 2px 2px 25px black;
+    padding: 15px;
+    z-index: 4;
+
+}
+
+.menuPrincipal a{
+    text-decoration: none;
+    text-decoration-line: none; 
+    text-decoration-style: none;
+    color: #f6007b;
+    position: relative;
+    right:15px;
+}
+.noMenu a{
+    color: #0000CD;
+
+}
+.l {
+    width: 40px;
+    height: 60px;
+    animation: laço infinite 3s;   
+}
+@keyframes laço {   
+    0% {transform: translateY(0px);}
+    50% {transform: translateY(10px);}
+    100% {transform: translateY(0px);}
+}
+.L{
+    position: fixed;
+    z-index: 5;
+    right: 4%;
+    transform: rotate(15deg); 
+    top: 8%;
+}
+
+.tituloPrincipal{ 
+    text-align: center;
+    max-width: 30%;
+    padding-bottom: 50px;
+}
+#letra {
+    position: relative;
+    font-size: 3rem;
+    width: 270px;
+    color: #000;
+    z-index: 2;
+    text-align: center;
+}
+
+#Voltar {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    float: left;
+    position: sticker;
+    left: 5%;
+    top:15%;
+    
+}
+
+#Avançar {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    float: right;
+    position: sticker;
+    right: 5%;
+    top:15%;
+    
+}
+
+#Voltar img{
+    width: 30px;
+    height: 30px;
+    transform: rotate(180deg);
+}
+
+#Avançar img{
+    width: 30px;
+    height: 30px; 
+}
+.espacamento{
+    height: 25px;
+    width: auto;
+    background: #fff;
+    box-shadow: 2px 2px 25px black;
+    
+}
+.parteConteudo{
+    height: 1000px;
+    padding-top: 80px;
+    padding-bottom: 50px;
+    color: white;
+
+}
+footer{
+    background-color: white;
+    height: 150px;
+    max-width: 100%;
+    padding: 10px;
+    box-shadow: 2px 2px 25px black;	
+    align-items: center;
+    
+}
+.escritaFooter{
+    text-align: center;
+    padding: 10px;
+    font-family: roboto;
+    
+}
+.redessociais img{
+    height: 20px;
+    width: 20px;
+    position: relative;
+    border: 10px solid white;
+    box-shadow: 1px 1px 5px black;    
+    border-radius: 35%;
+
+}
+.imagens{
+    position: relative;
+    width: 80%;
+    padding: 5px;
+    
+}
+#troca_imagens{
+    border-radius: 10%;
+    posiotion: relative;
+}
+
+.img {
+    height: 50px;
+    width: 50px; 
+    border-radius: 50%;    
+    margin-left: 8.5%;
+    position: relative;
+    top: 1px;
+    margin-left: 1%;
+    box-shadow: 1px 1px 20px black;
+}
+
+.nome {
+    color: white;
+    margin-left: 2.2%;
+    font-size: 12px; 
+    position: relative;
+    top: 1px;    
+}
+
+.p {
+   height: 100px;
+   width: 200px;
+   border-radius: 5%;
+   box-shadow: 2px 2px 25px black;
+   background: white; 
+   position: relative;
+   bottom: 75px;
+   margin-left: 18%;
+   color: black;
+}
+
+p {
+    font-size: 15px;    
+}
+
+.text {
+    position: relative;
+    margin-left: 4%;    
+}
+
+.button {
+    border: none;
+    border-radius: 8%;
+    width: 70px;
+    height: 35px;
+    position: relative;
+    margin-left: 46%;
+    bottom: 55px;    
+    color: white;
+    background-color: #f6007b;
+    font-size: 16px;
+    font-family: roboto;
+}
+.center {
+    position: relative;
+    margin-left: 15px;
+    z-index: 0;
+}
+.button:hover {
+    transition: 3s;
+    border: 1px solid #f6007b;
+    background-color: white;
+    color: #f6007b;   
+}
+
+.porCima{
+    height: 100%;
+    width: 0%;
+    position: fixed;
+    top: 0%;
+    right: 0%;
+    background-color: rgba(0,0,0,.7);
+    
+}
+.caixaMenu{
+    float:right;
+    right: 5%;
+    display:inline-block;
+    overflow-y: scroll;
+}
+.menuLado{
+    overflow: hidden;
+    background-color: white;    
+    position: fixed;
+    top: 0;
+    right: -780px;  
+    height: 100%;
+    transition: 0.5s;
+    width: 35%;
+    z-index: auto;    
+}
+.menuImg{
+    width: 100%;
+    height: 100%;
+    
+}
+.menu-aberto{
+    position:fixed;
+    display: inline-block;
+    text-transform: uppercase;
+    z-index: 0;
+}
+.menuLado a, .menu-fechado{
+    display: block;    
+}
+
+.menu-fechado {
+    position: relative;
+    margin-left: 128px;
+    width: 15px;
+    height: 15px;
+}
+
+.menuImgF {
+    position: relative;
+    bottom: 15px;    
+}
+.parteVideo {
+    padding: 20px;
+    width: 100%;
+    height: 100%;
+
+}
+.video {
+    width: auto;
+
+}
