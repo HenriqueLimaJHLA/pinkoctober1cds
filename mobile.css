@@ -40,9 +40,9 @@
 .L{
     position: fixed;
     z-index: 5;
-    right: 2%;
+    right: 3%;
     transform: rotate(15deg); 
-    top: 9%;
+    top: 10%;
 }
 
 .tituloPrincipal{ 
