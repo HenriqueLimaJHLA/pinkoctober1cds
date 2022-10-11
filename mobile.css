@@ -92,11 +92,6 @@
     width: 30px;
     height: 30px; 
 }
-#letra:before {
-    content: none;
-    text-align: center;
-    z-index: 2;
-}
 .espacamento{
     height: 25px;
     width: auto;
