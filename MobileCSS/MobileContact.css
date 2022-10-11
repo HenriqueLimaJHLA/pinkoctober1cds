@@ -163,3 +163,10 @@ p {
     position: relative;
     bottom: 15px;    
 }
+.parteConteudo{
+    height: 1000px;
+    padding-top: 80px;
+    padding-bottom: 50px;
+    color: white;
+
+}
