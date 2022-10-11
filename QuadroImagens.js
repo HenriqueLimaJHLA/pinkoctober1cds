@@ -46,8 +46,7 @@ function hover(){
         
          clearTimeout(tempo)
          botao.className= "mudaCor1"
-         tempo = setTimeout(function (){botao.className= "mudaCor2"},1000)
-         tempo = setTimeout(function (){botao.className= ""},500)
+         tempo = setTimeout(function (){botao.className= ""},1500)
 
     }
     if(numeroBotao === 2){
@@ -55,8 +54,7 @@ function hover(){
          
          clearTimeout(tempo)
          botao.className= "mudaCor1"
-         tempo = setTimeout(function (){botao.className= "mudaCor2"},1000)
-         tempo = setTimeout(function (){botao.className= ""},500)
+         tempo = setTimeout(function (){botao.className= ""},1500)
          
 
     }
