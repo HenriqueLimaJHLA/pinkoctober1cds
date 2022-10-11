@@ -14,7 +14,8 @@ body {
     font-size: 200;
     text-decoration-style: none;
     color: #f6007b;
-    margin-top: 20px;
+    position: relative;
+    top: 20px;
     
     
 }
