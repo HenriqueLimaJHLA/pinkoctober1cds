@@ -184,3 +184,8 @@ footer{
 .mudaCor1 img:hover {
     filter: invert(100%);    
 }
+@media (max-width: 640px) {
+
+
+
+}
