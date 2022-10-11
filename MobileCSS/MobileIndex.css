@@ -55,10 +55,11 @@
 #letra {
     position: relative;
     font-size: 3rem;
-    width: 270px;
+    width: 250px;
     color: #000;
     z-index: 2;
     text-align: center;
+    left: 15%;
 }
 
 #Voltar {
