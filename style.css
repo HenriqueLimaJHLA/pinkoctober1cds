@@ -180,6 +180,6 @@ footer{
     height: 75px; 
 }
 
-.mudaor img:hover {
+.mudaCor img:hover {
     filter: invert(100%);    
 }
