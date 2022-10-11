@@ -50,6 +50,7 @@
     max-width: 100%;
     padding-bottom: 50px;
     padding-left:20px;
+    margin-left: 200px;
 
 }
 #letra {
@@ -59,6 +60,7 @@
     color: #000;
     z-index: 2;
     text-align: center;
+    margin-left: 200px;
 }
 
 #Voltar {
