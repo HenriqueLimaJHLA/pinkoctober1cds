@@ -158,8 +158,11 @@ p {
 
 }
 .oMapa{
+    display: none;
+
+}
+.mapa{
     width: 300px;
     height: 200px;
-    display: none;
 
 }
