@@ -8,13 +8,12 @@
     max-width: 100%;
     position: fixed;
     top: 0;
+    font-size: 15px;
     font-family: cambria;
     word-spacing: 20px;
     box-shadow: 2px 2px 25px black;
     padding: 15px;
     z-index: 4;
-    text-align: center;
-    font-size: 15px;
 
 }
 
@@ -24,10 +23,17 @@
     text-decoration-style: none;
     color: #f6007b;
     position: relative;
-    
+    right:15px;
 }
 .noMenu a{
     color: #0000CD;
+
+}
+.parteConteudo{
+    height: 1000px;
+    padding-top: 80px;
+    padding-bottom: 50px;
+    color: white;
 
 }
 .parteVideo {
@@ -39,12 +45,5 @@
 .video {
     width: 100px;
     height: 50px;
-
-}
-.parteConteudo{
-    height: 1000px;
-    padding-top: 80px;
-    padding-bottom: 50px;
-    color: white;
 
 }
