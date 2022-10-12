@@ -38,14 +38,14 @@
 }
 .parteVideo {
     padding: 20px;
-    width: 400px;
+    width: 320px;
     height: 200px;
-    max-width: 100%;
+    position: relative;
+    right: 20px;
 
 }
 .video {
-    width: 400px;
+    width: 320px;
     height: 200px;
-    max-width: 100%;
 
 }
