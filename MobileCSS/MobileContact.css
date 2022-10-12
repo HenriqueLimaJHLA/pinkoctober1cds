@@ -33,7 +33,7 @@
     height: 50px;
     width: 50px; 
     border-radius: 50%;    
-    margin-left: 8.5%;
+    margin-left: 9.5%;
     position: relative;
     box-shadow: 1px 1px 20px black;
 }
@@ -42,6 +42,7 @@
     color: white;
     font-size: 12px; 
     position: relative;
+    bottom: 5px;
 }
 
 .p {
