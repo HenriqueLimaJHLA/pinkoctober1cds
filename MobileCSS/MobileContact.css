@@ -61,7 +61,8 @@
 }
 
 p {
-    font-size: 15px;    
+    font-size: 15px;
+    padding: 5px;
 }
 
 .text {
