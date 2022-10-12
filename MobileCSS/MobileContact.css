@@ -56,12 +56,8 @@
    bottom: 75px;
    margin-left: 18%;
    color: black;
-    padding-top: 10px;
-}
-
-p {
-    font-size: 12px;
-    padding: 8px;
+   padding-top: 10px;
+   font-size: 12px; 
 }
 
 .text {
