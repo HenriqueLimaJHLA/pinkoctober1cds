@@ -140,6 +140,8 @@ p {
 .menuImg{
     width: 100%;
     height: 100%;
+    position: relative;
+    right:20px;
     
 }
 .menu-aberto{
@@ -161,7 +163,8 @@ p {
 
 .menuImgF {
     position: relative;
-    bottom: 15px;    
+    bottom: 15px;
+    right: 15px;
 }
 .parteConteudo{
     height: 1000px;
