@@ -26,6 +26,9 @@ function alterar() {
     
     if(y === 1) {
         x1()
+    }
+    if(y === 2){
+        x3()
     }else{
         x2()
      
@@ -35,7 +38,7 @@ function x1() {
         div1.style.cssText= 'display: none';
         div2.style.cssText= 'display: block';
         
-        y = 0
+        y = 2
       
 }  
 function x2() {
@@ -44,5 +47,13 @@ function x2() {
         div2.style.cssText= 'display: none';
         
         y= 1
-    }     
-
+}     
+function x3() {
+        console.log("Teste3");
+        div1.style.cssText= 'display: none';
+        div2.style.cssText= 'display: none';
+        
+        setTimeout(function() {div2.style.cssText= 'display: block'}, 1000)
+        y = 0
+      
+}  
