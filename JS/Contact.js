@@ -57,4 +57,4 @@ function x3() {
         setTimeout(function() {falaMedico.style.cssText= 'display: block'}, 1000)
         y = 0
       
-}  
+} 
