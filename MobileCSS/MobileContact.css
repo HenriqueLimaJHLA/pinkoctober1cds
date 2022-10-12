@@ -105,10 +105,9 @@ p {
     
 }
 .caixaMenu{
-    float:right;
-    right: 5%;
+    position:relative;
+    right: 7px;
     display:inline-block;
-    overflow-y: scroll;
 }
 .menuLado{
     overflow: hidden;
