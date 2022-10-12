@@ -51,6 +51,7 @@
     text-align: center;
     max-width: 30%;
     padding-bottom: 50px;
+    margin-left: 15px;
 }
 #letra {
     position: relative;
@@ -59,7 +60,6 @@
     color: deeppink;
     z-index: 2;
     text-align: center;
-    right: 10%;
 }
 
 #Voltar {
