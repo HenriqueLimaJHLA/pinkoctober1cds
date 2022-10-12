@@ -35,16 +35,16 @@ function alterar() {
 }}
 function x1() {
         console.log("Teste1");
-        div1.style.cssText= 'display: none';
-        div2.style.cssText= 'display: block';
+        div1.style.cssText= 'display: block';
+        div2.style.cssText= 'display: none';
         
         y = 2
       
 }  
 function x2() {
         console.log("Teste2");
-        div1.style.cssText= 'display: block';
-        div2.style.cssText= 'display: none';
+        div1.style.cssText= 'display: none';
+        div2.style.cssText= 'display: block';
         
         y= 1
 }     
@@ -53,7 +53,7 @@ function x3() {
         div1.style.cssText= 'display: none';
         div2.style.cssText= 'display: none';
         
-        setTimeout(function() {div2.style.cssText= 'display: block'}, 1000)
+        setTimeout(function() {div1.style.cssText= 'display: block'}, 1000)
         y = 0
       
 }  
