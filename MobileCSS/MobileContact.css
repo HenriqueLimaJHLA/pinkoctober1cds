@@ -155,6 +155,15 @@ p {
     color: white;
 
 }
+footer{
+    background-color: white;
+    height: 70px;
+    max-width: 100%;
+    padding: 15px;
+    box-shadow: 2px 2px 25px black;	
+    align-items: center;
+}
+
 .oMapa{
     display: none;
 
