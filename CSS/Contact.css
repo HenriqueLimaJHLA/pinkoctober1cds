@@ -59,7 +59,8 @@ a:hover{
     color: white;
     margin-left: 10%; 
     position: relative;
-    top: 14px;    
+    top: 14px; 
+    font-size: 3vh;
 }
 
 .p {
@@ -74,13 +75,10 @@ a:hover{
    color: black;
 }
 
-p {
-    font-size: 3vh;    
-}
-
 .text {
     position: relative;
-    margin-left: 3%;    
+    margin-left: 3%;
+    font-size: 3vh;
 }
 
 .button {
