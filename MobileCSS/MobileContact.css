@@ -164,6 +164,12 @@ footer{
     align-items: center;
 }
 
+.escritaFooter{
+    text-align: center;
+    padding: 10px;
+    font-family: roboto;
+}
+
 .oMapa{
     display: none;
 
