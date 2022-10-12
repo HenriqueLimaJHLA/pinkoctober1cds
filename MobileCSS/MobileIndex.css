@@ -163,30 +163,30 @@ footer{
 } 
 @keyframes mudaImagem { 
 0% { 
-    background-image: url('../Imagens/images (51).jpeg');
+    background-image: url('./Imagens/images (51).jpeg');
     border-radius: 5px;
     height: 160px;
     
 } 
 25% {
-    background-image: url('../Imagens/images (50).jpeg');
+    background-image: url('./Imagens/images (50).jpeg');
     border-radius: 5px;
     height: 160px; 
 } 
 50% {
-    background-image: url('../Imagens/images (51).jpeg');
+    background-image: url('./Imagens/images (51).jpeg');
     border-radius: 5px;
     height: 160px; 
     
 } 
 75% {
-    background-image: url('../Imagens/images (50).jpeg');
+    background-image: url('./Imagens/images (50).jpeg');
     border-radius: 5px;
     height: 160px; 
     
 } 
 100% { 
-    background-image: url('../Imagens/images (51).jpeg');
+    background-image: url('./Imagens/images (51).jpeg');
     border-radius: 5px;
     height: 160px; 
     
