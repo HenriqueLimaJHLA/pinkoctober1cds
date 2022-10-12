@@ -32,18 +32,16 @@
 .parteConteudo{
     height: 1000px;
     padding-top: 80px;
-    padding-bottom: 50px;
     color: white;
 
 }
 .parteVideo {
     padding: 20px;
     width: 400px;
-    height: 300px;
+    height: 200px;
 
 }
 .video {
-    width: 200px;
-    height: 100px;
-
+    width: 400px;
+    height: 200px;
 }
