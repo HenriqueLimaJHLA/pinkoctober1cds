@@ -20,29 +20,29 @@ porCima.css({"opacity": "0", "width": "0"});
 
     var valor1 = document.getElementById('div1')
     var valor2 = document.getElementById('div2')
-    var oi
+    var y
 
 function alterar() {
     
-    if(oi === 1) {
-        oi1()
+    if(y === 1) {
+        x1()
     }else{
-        oi2()
+        x2()
      
 }}
-function oi1() {
+function x1() {
         console.log("Teste1");
-        div1.style.cssText= 'display: block';
-        div2.style.cssText= 'display: none';
-        
-        oi = 0
-      
-}  
-function oi2() {
-        console.log("Teste2");
         div1.style.cssText= 'display: none';
         div2.style.cssText= 'display: block';
         
-        oi= 1
+        y = 0
+      
+}  
+function x2() {
+        console.log("Teste2");
+        div1.style.cssText= 'display: block';
+        div2.style.cssText= 'display: none';
+        
+        y= 1
     }     
 
