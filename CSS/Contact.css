@@ -155,3 +155,6 @@ p {
     position: relative;
     margin-left: 170px;    
 }
+.mapa{
+   display:none;
+}
