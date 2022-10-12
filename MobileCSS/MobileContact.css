@@ -75,7 +75,7 @@ p {
     width: 70px;
     height: 35px;
     position: relative;
-    margin-left: 0%;
+    margin-left: 41.5%;
     bottom: 55px;    
     color: white;
     background-color: #f6007b;
@@ -162,5 +162,6 @@ p {
 .mapa{
     width: 300px;
     height: 200px;
+    bottom: 25px;
 
 }
