@@ -32,7 +32,7 @@ function alterar() {
 }}
 function oi1() {
         console.log("Teste1");
-        div1.style.cssText= 'display: none';(a)
+        div1.style.cssText= 'display: none';
         div2.style.cssText= 'display: block';
         
         oi = 0
