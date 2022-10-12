@@ -51,6 +51,7 @@
     text-align: center;
     max-width: 30%;
     padding-bottom: 50px;
+    display:none;
 }
 #letra {
     position: relative;
