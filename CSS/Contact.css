@@ -16,6 +16,7 @@ body {
     text-decoration-style: none;
     color: #f6007b;
     position: relative;
+    left: 25px;
     top: 20px;
     
     
@@ -136,6 +137,8 @@ p {
 }
 .menuImg{
     width: 60%;
+    position: relative;
+    right: 15px;
     
 }
 .menu-aberto{
