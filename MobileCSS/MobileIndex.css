@@ -49,64 +49,72 @@
 
 .tituloPrincipal{ 
     text-align: center;
-    max-width: 30%;
-    padding-bottom: 50px;
-    margin-left: 20px;
+    max-width: 45%;
+    padding-bottom: 60px;
+    font-family:serif;
+    
 }
 #letra {
     position: relative;
     font-size: 3rem;
     width: 250px;
-    color: deeppink;
+    color: #fff;
     z-index: 2;
     text-align: center;
-    right: 5px;
+    text-shadow: 2px 2px 25px #000;
+    -webkit-text-stroke-color: deeppink;
+    -webkit-text-stroke-width: 1px;
 }
-
+#letra:before {
+    content: none;
+    
+}
 #Voltar {
     background-color: transparent;
     border: none;
     cursor: pointer;
     float: left;
-    position: sticker;
+    position: absolute;
     left: 5%;
-    top:15%;
-
+    top:30%;
+    
 }
-
 #Avançar {
     background-color: transparent;
     border: none;
     cursor: pointer;
     float: right;
-    position: sticker;
+    position: absolute;
     right: 5%;
-    top:15%;
-
+    top:30%;
+    
 }
 
 #Voltar img{
-    width: 30px;
-    height: 30px;
+    width: 20px;
+    height: 20px;
     transform: rotate(180deg);
 }
 
 #Avançar img{
-    width: 30px;
-    height: 30px; 
+    width: 20px;
+    height: 20px; 
 }
 .espacamento{
-    height: 25px;
+    height: 190px;
     width: auto;
     background: #fff;
-    box-shadow: 2px 2px 25px black;
-
+    padding-top:10px;
+    box-shadow: 2px 2px 25px #;
+    
 }
 .parteConteudo{
-    height: 1000px;
-    padding-top: 80px;
+    height: 600px;
+    padding-top: 0px;
     padding-bottom: 50px;
-    color: white;
+    color: #000;
+    background: #fff;
+    opacity: 85%;
 
 }
 footer{
@@ -116,13 +124,13 @@ footer{
     padding: 10px;
     box-shadow: 2px 2px 25px black;	
     align-items: center;
-
+    
 }
 .escritaFooter{
     text-align: center;
     padding: 10px;
     font-family: roboto;
-
+    
 }
 .redessociais img{
     height: 20px;
@@ -135,11 +143,52 @@ footer{
 }
 .imagens{
     position: relative;
-    width: 75%;
-    padding: 5px;
-
+    width: auto;
+    height: auto; 
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 25px deeppink;
+    
 }
-#troca_imagens{
-    border-radius: 10%;
-    position: relative;
+.trocaImagens{
+    height: 160px;
+    animation: mudaImagem 30s infinite; 
+    display: block; 
+    align-items: center; 
+    text-align: center; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain; 
+
+} 
+@keyframes mudaImagem { 
+0% { 
+    background-image: url('../Imagens/images (51).jpeg');
+    border-radius: 5px;
+    height: 160px;
+    
+} 
+25% {
+    background-image: url('../Imagens/images (50).jpeg');
+    border-radius: 5px;
+    height: 160px; 
+} 
+50% {
+    background-image: url('../Imagens/images (51).jpeg');
+    border-radius: 5px;
+    height: 160px; 
+    
+} 
+75% {
+    background-image: url('../Imagens/images (50).jpeg');
+    border-radius: 5px;
+    height: 160px; 
+    
+} 
+100% { 
+    background-image: url('../Imagens/images (51).jpeg');
+    border-radius: 5px;
+    height: 160px; 
+    
+} 
 }
