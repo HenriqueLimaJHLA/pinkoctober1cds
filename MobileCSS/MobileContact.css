@@ -50,7 +50,7 @@
 
 .p {
    height: 100px;
-   width: 200px;
+   width: 225px;
    border-radius: 5%;
    box-shadow: 2px 2px 25px black;
    background: white; 
@@ -154,5 +154,9 @@ p {
     padding-top: 80px;
     padding-bottom: 50px;
     color: white;
+
+}
+.mapa{
+    width: 225px;
 
 }
