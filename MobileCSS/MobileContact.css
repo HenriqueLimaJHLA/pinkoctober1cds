@@ -60,6 +60,10 @@
    font-size: 12px; 
 }
 
+.p,.nome p{
+    padding: 8px; 
+}    
+
 .text {
     position: relative;
     margin-left: 4%;    
