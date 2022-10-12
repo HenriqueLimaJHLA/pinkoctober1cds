@@ -42,7 +42,7 @@
 
 .nome {
     color: white;
-    margin-left: 2.2%;
+    margin-left: 1%;
     font-size: 12px; 
     position: relative;
     top: 1px;    
@@ -58,6 +58,7 @@
    bottom: 75px;
    margin-left: 18%;
    color: black;
+    padding-top: 10px;
 }
 
 p {
@@ -80,7 +81,7 @@ p {
     bottom: 55px;    
     color: white;
     background-color: #f6007b;
-    font-size: 16px;
+    font-size: 12px;
     font-family: roboto;
 }
 .parteMedico {
