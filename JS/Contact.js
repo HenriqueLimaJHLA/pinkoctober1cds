@@ -33,7 +33,7 @@ function alterar() {
 function oi1() {
         console.log("Teste1");
         div1.style.cssText= 'display: none';
-        div2.style.cssText= 'display: block';
+        div2.style.cssText= 'display: none';
         
         oi = 0
       
