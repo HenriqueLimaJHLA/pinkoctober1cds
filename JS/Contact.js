@@ -37,9 +37,8 @@ function x1() {
         console.log("Teste1");
         falaMedico.style.cssText= 'display: none';
         oMapa.style.cssText= 'display: none';
-        setTimeout(function() {falaMedico.style.cssText= 'display: block'}, 1000)
         
-        y = 3
+        y = 2
       
 }  
 function x2() {
