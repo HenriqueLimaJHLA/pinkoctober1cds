@@ -29,23 +29,6 @@
     color: #0000CD;
 
 }
-.l {
-    width: 40px;
-    height: 60px;
-    animation: laço infinite 3s;   
-}
-@keyframes laço {   
-    0% {transform: translateY(0px);}
-    50% {transform: translateY(10px);}
-    100% {transform: translateY(0px);}
-}
-.L{
-    position: fixed;
-    z-index: 5;
-    right: 4%;
-    transform: rotate(15deg); 
-    top: 8%;
-}
 .img {
     height: 50px;
     width: 50px; 
