@@ -158,6 +158,6 @@ p {
     position: relative;
     margin-left: 170px;    
 }
-.mapa{
+#oMapa{
    display: none;
 }
