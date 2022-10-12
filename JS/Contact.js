@@ -18,7 +18,7 @@ porCima.css({"opacity": "0", "width": "0"});
 });
 });
 
-    var valor1 = document.getElementById('div1')
+    var valor1 = document.getElementById('falaMedico')
     var valor2 = document.getElementById('div2')
     var y
 
@@ -35,7 +35,7 @@ function alterar() {
 }}
 function x1() {
         console.log("Teste1");
-        div1.style.cssText= 'display: block';
+        falaMedico.style.cssText= 'display: block';
         div2.style.cssText= 'display: none';
         
         y = 2
@@ -43,17 +43,17 @@ function x1() {
 }  
 function x2() {
         console.log("Teste2");
-        div1.style.cssText= 'display: none';
+        falaMedico.style.cssText= 'display: none';
         div2.style.cssText= 'display: block';
         
         y= 1
 }     
 function x3() {
         console.log("Teste3");
-        div1.style.cssText= 'display: none';
+        falaMedico.style.cssText= 'display: none';
         div2.style.cssText= 'display: none';
         
-        setTimeout(function() {div1.style.cssText= 'display: block'}, 1000)
+        setTimeout(function() {falaMedico.style.cssText= 'display: block'}, 1000)
         y = 0
       
 }  
