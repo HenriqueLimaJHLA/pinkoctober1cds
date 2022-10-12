@@ -55,6 +55,7 @@ p{
     width: 270px;
     color: #000;
     z-index: 2;
+    display:none;
 
 }
 #letra:before {
