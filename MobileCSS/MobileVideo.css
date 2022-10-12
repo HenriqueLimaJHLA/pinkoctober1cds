@@ -48,3 +48,18 @@
     height: 200px;
 
 }
+footer{
+    background-color: white;
+    height: 100px;
+    max-width: 100%;
+    padding: 10px;
+    box-shadow: 2px 2px 25px black;	
+    align-items: center;
+
+}
+.escritaFooter{
+    text-align: center;
+    padding: 10px;
+    font-family: roboto;
+
+}
