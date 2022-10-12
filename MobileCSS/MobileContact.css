@@ -42,8 +42,8 @@
     color: white;
     font-size: 12px; 
     position: relative;
-    margin-left: 10px;
-    top: 3px;
+    margin-left: 15px;
+    top: 6px;
 }
 
 .p {
@@ -60,13 +60,14 @@
    font-size: 12px; 
 }
 
-.p,.nome p{
+.p,.text p{
     padding: 8px; 
 }    
 
 .text {
     position: relative;
-    margin-left: 4%;    
+    margin-left: 4%;
+    font-size: 12px;
 }
 
 .button {
