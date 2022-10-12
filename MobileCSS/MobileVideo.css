@@ -14,6 +14,7 @@
     padding: 15px;
     z-index: 4;
     text-align: center;
+    font-size: 15px;
 
 }
 
@@ -23,7 +24,6 @@
     text-decoration-style: none;
     color: #f6007b;
     position: relative;
-    font-size: 15px;
     
 }
 .noMenu a{
