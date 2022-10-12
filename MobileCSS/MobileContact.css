@@ -157,8 +157,9 @@ p {
     color: white;
 
 }
-.mapa{
+.oMapa{
     width: 300px;
     height: 200px;
+    display: none;
 
 }
