@@ -41,8 +41,17 @@ a:hover{
 .conteudo {
     height: 1000px;   
 } 
-@media (max-width: 640px) {
-
-
-
+footer{
+    background-color: white;
+    height: 100px;
+    padding: 20px;
+    box-shadow: 2px 2px 25px black;	
+    align-items: center;
+    
+}
+.escritaFooter{
+    text-align: center;
+    padding: 15px;
+    font-family: roboto;
+    
 }
