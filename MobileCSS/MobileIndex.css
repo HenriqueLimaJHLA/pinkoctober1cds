@@ -163,7 +163,7 @@ footer{
 } 
 @keyframes mudaImagem { 
 0% { 
-    background-image: url('./Imagens/images (51).jpeg');
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSWjcnYj8HGjPTA40Woa3uQZ-uKZUm5A6f5Q&usqp=CAU');
     border-radius: 5px;
     height: 160px;
     
@@ -174,7 +174,7 @@ footer{
     height: 160px; 
 } 
 50% {
-    background-image: url('./Imagens/images (51).jpeg');
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSWjcnYj8HGjPTA40Woa3uQZ-uKZUm5A6f5Q&usqp=CAU');
     border-radius: 5px;
     height: 160px; 
     
@@ -186,7 +186,7 @@ footer{
     
 } 
 100% { 
-    background-image: url('./Imagens/images (51).jpeg');
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSWjcnYj8HGjPTA40Woa3uQZ-uKZUm5A6f5Q&usqp=CAU');
     border-radius: 5px;
     height: 160px; 
     
