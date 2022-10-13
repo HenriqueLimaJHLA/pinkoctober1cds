@@ -158,7 +158,7 @@ footer{
     background-size: cover;
     animation: mudaImagem infinite 15s;
 }
-@keyframe mudaImagem{
+@keyframes mudaImagem{
 
      0%, 100%{
 
