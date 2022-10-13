@@ -101,7 +101,7 @@
     height: 20px; 
 }
 .espacamento{
-    height: 190px;
+    height: 150px;
     width: auto;
     background: #fff;
     padding-top:10px;
@@ -156,7 +156,7 @@ footer{
     height: 200px;
     background-position: center;
     background-size: cover;
-    animation: mudaImagem infinite 15s;
+    animation: mudaImagem infinite 30s;
 }
 @keyframes mudaImagem{
 
