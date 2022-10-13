@@ -151,44 +151,33 @@ footer{
     
 }
 .trocaImagens{
-    height: 160px;
-    animation: mudaImagem 30s infinite; 
-    display: block; 
-    align-items: center; 
-    text-align: center; 
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSz24VerRA6UEfm1Kt4kL4l4wZER4oqycewtg&usqp=CAU")
+    widht: 200px;
+    height: 100px;
     background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain; 
+    background-size: cover;
+    animation: mudaImagem infinite 15s;
+}
+@keyframe mudaImagem{
 
-} 
-@keyframes mudaImagem { 
-0% { 
-    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSWjcnYj8HGjPTA40Woa3uQZ-uKZUm5A6f5Q&usqp=CAU');
-    border-radius: 5px;
-    height: 160px;
+     0%, 100%{
+
+           background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQEFrrksWS1G2Kvn4_bSpB9Xgo-P6mRFZCKQ&usqp=CAU");
+      }
+      20%{
+      
+           background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMWimWfRippApCNG3WTVJZzGtkdYRgGCtCJw&usqp=CAU");
+       }
+       40%{
+
+           background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5ifDO8P5AwllUwDjdfJ5Ab3uiNO9rkLfqrg&usqp=CAU");
+       }
+       60%{
     
-} 
-25% {
-    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMWimWfRippApCNG3WTVJZzGtkdYRgGCtCJw&usqp=CAU');
-    border-radius: 5px;
-    height: 160px; 
-} 
-50% {
-    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSWjcnYj8HGjPTA40Woa3uQZ-uKZUm5A6f5Q&usqp=CAU');
-    border-radius: 5px;
-    height: 160px; 
-    
-} 
-75% {
-    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMWimWfRippApCNG3WTVJZzGtkdYRgGCtCJw&usqp=CAU');
-    border-radius: 5px;
-    height: 160px; 
-    
-} 
-100% { 
-    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSWjcnYj8HGjPTA40Woa3uQZ-uKZUm5A6f5Q&usqp=CAU');
-    border-radius: 5px;
-    height: 160px; 
-    
-} 
+           background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_MCWBDel_ntzU5fc7bfXqjaTBbOUzA9paxA&usqp=CAU");
+       }
+       80%{
+
+           background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTX0H5bVjj-ret7lJkXGIKTRLH8IUPvtIxdYw&usqp=CAU");
+       }
 }
