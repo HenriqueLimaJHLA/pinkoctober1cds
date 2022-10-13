@@ -152,7 +152,7 @@ footer{
 }
 .trocaImagens{
     background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSz24VerRA6UEfm1Kt4kL4l4wZER4oqycewtg&usqp=CAU")
-    widht: 200px;
+    width: 200px;
     height: 100px;
     background-position: center;
     background-size: cover;
