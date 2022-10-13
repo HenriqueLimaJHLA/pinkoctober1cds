@@ -143,8 +143,8 @@ footer{
 }
 .imagens{
     position: relative;
-    width: auto;
-    height: auto; 
+    width: 320px;
+    height: 220px; 
     padding: 10px;
     border-radius: 5px;
     box-shadow: 2px 2px 25px deeppink;
@@ -152,8 +152,8 @@ footer{
 }
 .trocaImagens{
     background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSz24VerRA6UEfm1Kt4kL4l4wZER4oqycewtg&usqp=CAU");
-    width: 200px;
-    height: 100px;
+    width: 300px;
+    height: 200px;
     background-position: center;
     background-size: cover;
     animation: mudaImagem infinite 15s;
