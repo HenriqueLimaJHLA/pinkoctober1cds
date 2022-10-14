@@ -20,6 +20,8 @@ porCima.css({"opacity": "0", "width": "0"});
 
     var valor1 = document.getElementById('falaMedico')
     var valor2 = document.getElementById('oMapa')
+    var valor3 = document.getElementById('nomeBotao')
+    var valor4 = document.getElementById('button')
     var y
 
 function alterar() {
@@ -34,23 +36,28 @@ function alterar() {
      
 }}
 function x1() {
+        console.log("Teste1");
         falaMedico.style.cssText= 'display: none';
         oMapa.style.cssText= 'display: none';
-        
+        button.style.cssText= 'display: none';
         y = 2
       
 }  
 function x2() {
+        console.log("Teste2");
         falaMedico.style.cssText= 'display: none';
         oMapa.style.cssText= 'display: block';
-        
+        nomeBotao.innerHTML= 'Voltar'
         y= 1
 }     
 function x3() {
+        console.log("Teste3");
         falaMedico.style.cssText= 'display: none';
         oMapa.style.cssText= 'display: none';
         
-        setTimeout(function() {falaMedico.style.cssText= 'display: block'}, 1000)
+        setTimeout(function() {falaMedico.style.cssText= 'display: block';
+            nomeBotao.innerHTML= 'Buscar';
+            button.style.cssText= 'display: block';}, 1000)
         y = 0
       
 } 
