@@ -55,3 +55,14 @@ footer{
     font-family: roboto;
     
 }
+
+.parteConteudo{
+    height: 1000px;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    color: white;
+    opacity: 85%;
+    width: 90%;
+    border-radius: 15px;
+    
+}    
