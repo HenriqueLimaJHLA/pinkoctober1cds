@@ -145,10 +145,13 @@ footer{
 .imagens{
     background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSz24VerRA6UEfm1Kt4kL4l4wZER4oqycewtg&usqp=CAU");
     background-position: center;
-    width: 600px;
-    height: 400px;
+    width: 550px;
+    height: 300px;
     background-size: cover;
     animation: mudaImagem infinite 30s;
+    padding-top: 20px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 25px black;
 }
 @keyframes mudaImagem{
 
