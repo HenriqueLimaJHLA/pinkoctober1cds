@@ -36,7 +36,6 @@ function alterar() {
      
 }}
 function x1() {
-        console.log("Teste1");
         falaMedico.style.cssText= 'display: none';
         oMapa.style.cssText= 'display: none';
         button.style.cssText= 'display: none';
@@ -44,14 +43,12 @@ function x1() {
       
 }  
 function x2() {
-        console.log("Teste2");
         falaMedico.style.cssText= 'display: none';
         oMapa.style.cssText= 'display: block';
         nomeBotao.innerHTML= 'Voltar'
         y= 1
 }     
 function x3() {
-        console.log("Teste3");
         falaMedico.style.cssText= 'display: none';
         oMapa.style.cssText= 'display: none';
         
