@@ -2,4 +2,4 @@
 Esse foi o projeto realizado pelos alunos do 1ºC - Desenvolvimento de Sistemas... 
 <br><br><br><b>
 
-https://user-images.githubusercontent.com/113061751/195732872-7df1a034-4961-4666-91a4-1f58118b395a.jpg
+https://github.com/HenriqueLimaJHLA/pinkoctober1cds/blob/bea3a0265dfdf911c587f3d430bcfb9a1ac98cda/Imagens/images%20(50).jpeg
