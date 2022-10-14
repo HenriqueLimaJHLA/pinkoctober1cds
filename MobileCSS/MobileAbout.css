@@ -29,11 +29,14 @@
     color: #0000CD;
 
 }
-.parteConteudo{
+.conteudo{
     height: 1000px;
     padding-top: 80px;
     padding-bottom: 50px;
     color: white;
+    opacity: 85%;
+    width: 90%;
+    border-radius: 15px;
 
 }
 footer{
