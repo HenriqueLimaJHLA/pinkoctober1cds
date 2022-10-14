@@ -7,13 +7,13 @@ $(function() {
 
      menu_aberto.click(function (e) {
           e.preventDefault();
-          menu.css({"right": "0px"});
+          menu.css({"left": "0px"});
           porCima.css({"opacity": "1", "width": "100%"});
      });
 
      menu_fechado.click(function (e) {
          e.preventDefault();
-         menu.css({"right": "-" + menu_width + "px"});
+         menu.css({"left": "-" + menu_width + "px"});
          porCima.css({"opacity": "0", "width": "0"});
      });
 });
