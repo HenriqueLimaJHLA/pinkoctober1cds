@@ -146,8 +146,7 @@ footer{
     width: 320px;
     height: 220px; 
     padding: 10px;
-    border-radius: 5px;
-    box-shadow: 2px 2px 25px deeppink;
+    border-radius: 15px;
     
 }
 .trocaImagens{
@@ -170,7 +169,7 @@ footer{
        }
        40%{
 
-           background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5ifDO8P5AwllUwDjdfJ5Ab3uiNO9rkLfqrg&usqp=CAU");
+           background-image: url("");
        }
        60%{
     
