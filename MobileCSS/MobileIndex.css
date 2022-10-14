@@ -70,8 +70,8 @@
     
 }    
 .parteConteudo{
-    height: 600px;
-    padding-top: 0px;
+    height: 550px;
+    padding-top: 100px;
     padding-bottom: 50px;
     color: #000;
     background: #fff;
@@ -112,8 +112,8 @@ footer{
 .trocaImagens{
     background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSz24VerRA6UEfm1Kt4kL4l4wZER4oqycewtg&usqp=CAU");
     background-position: center;
-    width: 300px;
-    height: 200px;
+    width: 320px;
+    height: 220px;
     background-size: cover;
     animation: mudaImagem infinite 30s;
 }
