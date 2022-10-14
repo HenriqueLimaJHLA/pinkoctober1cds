@@ -110,14 +110,14 @@ a:hover{
     width: 0%;
     position: fixed;
     top: 0%;
-    right: 0%;
+    left: 0%;
     background-color: rgba(0,0,0,.7);
     
 }
 .caixaMenu{
     width: 5%;
-    float:right;
-    margin-right: 7%;
+    float:left;
+    margin-left: 7%;
     display:inline-block;
 }
 .menuLado{
@@ -125,7 +125,7 @@ a:hover{
     background-color: white;    
     position: fixed;
     top: 0;
-    right: -749px;
+    left: -749px;
     height: 100%;
     transition: 0.5s;
     width: 20%;
