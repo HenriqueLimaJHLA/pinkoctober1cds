@@ -23,7 +23,6 @@
     text-decoration-style: none;
     color: #f6007b;
     position: relative;
-    left: 10px;
 }
 .noMenu a{
     color: #0000CD;
@@ -152,8 +151,8 @@
 
 .menuImgF {
     position: relative;
-    bottom: 15px;
-    right: 15px;
+    top: 15px;
+    margin-left: 50px;
 }
 .parteConteudo{
     height: 1000px;
