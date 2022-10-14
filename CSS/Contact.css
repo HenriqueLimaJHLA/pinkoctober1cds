@@ -135,7 +135,7 @@ a:hover{
 .menuImg{
    width: 50%;
    height: 50%;
-   animation: rotate;
+   
 }
 @keyframes rotate {
     10% {transform: rotate(0deg);}
