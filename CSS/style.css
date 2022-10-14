@@ -82,8 +82,6 @@ p{
 }
 .parteConteudo{
     height: 1000px;
-    padding-top: 100px;
-    padding-bottom: 50px;
     color: black;
     background: #fff;
     opacity: 85%;
@@ -154,7 +152,7 @@ footer{
     height: 500px;
     animation: mudaImagem infinite 30s;
     position: relative;
-    top: 60px;
+    top: 70px;
     border-radius: 15px;
     box-shadow: 2px 2px 25px black;
     z-index: 2;
