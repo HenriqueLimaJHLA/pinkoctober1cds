@@ -54,8 +54,10 @@ function x3(){
 }
 
 function giraBotao() {
-     var menu = document.getElementById('menuImg')
+            var menu = document.getElementsByClassName('menuImg')
      
-     menuImg.style.cssText= 'animation: rotate 5s infinite';
+            menuImg.style.cssText= 'animation: rotate 5s infinite';
+       
+            setTimeout(function(){menuImg.style.cssText= 'animation: none'},1000)
 
 }
