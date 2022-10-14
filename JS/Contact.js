@@ -25,31 +25,34 @@ $(function() {
     var y
 
 function alterar() {
-    
     if(y === 1) {
-        function x1(){
+        x1()
+    }if(y === 2){
+        x3() 
+    }else{
+        x2() 
+    }}
+
+function x1(){
             falaMedico.style.cssText= 'display: none';
             oMapa.style.cssText= 'display: none';
             button.style.cssText= 'display: none';
             y = 2      
-        }
-    }
-    if(y === 2){
-        function x3(){
+}
+function x2(){
+            falaMedico.style.cssText= 'display: none'; 
+            oMapa.style.cssText= 'display: block'; 
+            nomeBotao.innerHTML= 'Voltar'
+            y= 1
+}
+function x3(){
             falaMedico.style.cssText= 'display: none';
             oMapa.style.cssText= 'display: none';
         
             setTimeout(function(){falaMedico.style.cssText= 'display: block'; nomeBotao.innerHTML= 'Buscar'; button.style.cssText= 'display: block';}, 1000)
             y = 0
-        } 
-    }else{
-        function x2(){
-            falaMedico.style.cssText= 'display: none'; 
-            oMapa.style.cssText= 'display: block'; 
-            nomeBotao.innerHTML= 'Voltar'
-            y= 1
-        }          
-}}
+}
+
 function giraBotao() {
      var menu = document.getElementsByClassName('menuImg')
      
