@@ -146,10 +146,10 @@ footer{
     background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSz24VerRA6UEfm1Kt4kL4l4wZER4oqycewtg&usqp=CAU");
     background-position: center;
     width: 550px;
-    height: 300px;
+    height: 350px;
     background-size: cover;
     animation: mudaImagem infinite 30s;
-    padding-top: 20px;
+    top: 50px;
     border-radius: 15px;
     box-shadow: 2px 2px 25px black;
 }
