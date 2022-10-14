@@ -29,15 +29,16 @@
     color: #0000CD;
 
 }
-.conteudo{
-    height: 1000px;
-    padding-top: 80px;
-    padding-bottom: 50px;
-    color: white;
-    opacity: 85%;
-    width: 90%;
-    border-radius: 15px;
-
+.conteudo {  
+    height: 1000px;    
+    color: black;    
+    width: 80%;    
+    opacity: 60%;    
+    position: relative;    
+    left: 42px;    
+    top:1%;
+    border-radius: 15px;    
+    background-color:white;
 }
 footer{
     background-color: white;
