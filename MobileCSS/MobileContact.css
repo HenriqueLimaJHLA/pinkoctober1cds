@@ -125,8 +125,14 @@
     height: 100%;
     position: relative;
     right:20px;
-    
+    animation: rotate;
 }
+@keyframes rotate {
+    10% {transform: rotate(0deg);}
+    70% {transform: rotate(0deg);}
+    100% {transform: rotate(360deg);}
+}
+
 .menu-aberto{
     position:fixed;
     display: inline-block;
