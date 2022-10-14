@@ -125,7 +125,6 @@
     height: 100%;
     position: relative;
     right:20px;
-    animation: rotate;
 }
 @keyframes rotate {
     10% {transform: rotate(0deg);}
