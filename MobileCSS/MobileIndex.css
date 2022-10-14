@@ -69,15 +69,7 @@
     content: none;
     
 }    
-.parteConteudo{
-    height: 550px;
-    padding-top: 100px;
-    padding-bottom: 50px;
-    color: #000;
-    background: #fff;
-    opacity: 85%;
 
-}
 footer{
     background-color: white;
     height: 150px;
@@ -133,3 +125,11 @@ footer{
            background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTX0H5bVjj-ret7lJkXGIKTRLH8IUPvtIxdYw&usqp=CAU");
        }
 }
+
+.parteConteudo{
+    height: 550px;
+    padding-top: 10px;
+    padding-bottom: 50px;
+    color: #000;
+    background: #fff;
+    opacity: 85%;
