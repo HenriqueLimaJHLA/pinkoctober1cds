@@ -141,13 +141,6 @@ footer{
     transform: rotate(15deg); 
     top: 9px;
 }
-.imagens{
-    position: relative;
-    height: 200px;
-    padding: 100px;
-    
-    
-}
 
 .imagens{
     background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSz24VerRA6UEfm1Kt4kL4l4wZER4oqycewtg&usqp=CAU");
