@@ -39,8 +39,16 @@ a:hover{
     transition: 1s;
 }   
 .conteudo {
-    height: 1000px;   
-} 
+    height: 1000px;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    color: white;
+    opacity: 85%;
+    width: 90%;
+    border-radius: 15px;
+ 
+}    
+
 footer{
     background-color: white;
     height: 100px;
@@ -55,14 +63,3 @@ footer{
     font-family: roboto;
     
 }
-
-.parteConteudo{
-    height: 1000px;
-    padding-top: 100px;
-    padding-bottom: 50px;
-    color: white;
-    opacity: 85%;
-    width: 90%;
-    border-radius: 15px;
-    
-}    
