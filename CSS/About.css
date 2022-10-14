@@ -40,14 +40,17 @@ a:hover{
 }   
 .conteudo {
     height: 1000px;
-    padding-top: 100px;
+    padding-top: 80px;
     padding-bottom: 50px;
-    color: white;
-    opacity: 85%;
+    color: black;
     width: 90%;
+    opacity: 60%;
+    position: relative;
+    left: 63px;
+    top: 10px;
     border-radius: 15px;
- 
-}    
+    background-color:white
+}
 
 footer{
     background-color: white;
