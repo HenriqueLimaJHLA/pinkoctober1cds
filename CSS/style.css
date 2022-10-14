@@ -84,7 +84,11 @@ p{
     height: 1000px;
     padding-top: 100px;
     padding-bottom: 50px;
-    color: white;
+    color: black;
+    background: #fff;
+    opacity: 85%;
+    z-index: 0;
+}
 
 }
 footer{
@@ -153,6 +157,7 @@ footer{
     top: 60px;
     border-radius: 15px;
     box-shadow: 2px 2px 25px black;
+    z-index: 2;
 }
 @keyframes mudaImagem{
 
