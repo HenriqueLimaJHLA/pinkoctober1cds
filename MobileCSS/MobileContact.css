@@ -23,7 +23,7 @@
     text-decoration-style: none;
     color: #f6007b;
     position: relative;
-    right: 39.5px;
+    right: 39.6px;
 }
 .noMenu a{
     color: #0000CD;
@@ -49,7 +49,7 @@
 .p {
    height: 100px;
    width: 250px;
-   border-radius: 5%;
+   border-radius: 15px;
    box-shadow: 2px 2px 25px black;
    background: white; 
    position: relative;
