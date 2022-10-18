@@ -144,7 +144,7 @@
 
 .menu-fechado {
     position: relative;
-    margin-left: 128px;
+    left: -780px;
     width: 15px;
     height: 15px;
     
