@@ -1,5 +1,5 @@
 $(function() {
-     var menu_width = 290
+     var menu_width = 35
      var menu = $(".menuLado")
      var menu_aberto = $(".menu-aberto")
      var menu_fechado = $(".menu-fechado")
@@ -13,7 +13,7 @@ $(function() {
 
      menu_fechado.click(function (e) {
          e.preventDefault();
-         menu.css({"left": "-" + menu_width + "px"});
+         menu.css({"left": "-" + menu_width + "%"});
          porCima.css({"opacity": "0", "width": "0"});
      });
 });
