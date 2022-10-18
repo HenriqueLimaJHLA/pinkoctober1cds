@@ -116,14 +116,14 @@
     left: -749px;  
     height: 100%;
     transition: 0.5s;
-    width: 20%;
+    width: 30%;
     z-index: auto;
     
 }
 .menuImg{
-   width: 100%;
-   height: 100%;
-   left:15px;
+    width: 100%;
+    height: 100%;
+    left: 25px;
    
 }
 @keyframes rotate {
@@ -138,20 +138,17 @@
     display: inline-block;
     text-transform: uppercase;
     z-index: 0;
+
 }
 .menuLado a, .menu-fechado{
     display: block;    
-}
 
+}
 .menu-fechado {
     width: 28%;
     position: relative;
     margin-left: 170px;    
-}
-.menu-aberto ul{
-    position: relative;
-    text-align:center;
-    
+
 }
 .parteConteudo{
     height: 1000px;
