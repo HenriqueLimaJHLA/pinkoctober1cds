@@ -148,7 +148,10 @@
     width: 15px;
     height: 15px;
 }
+.menu-fechado ul{
+    margin-left:10px;
 
+}
 .menuImgF {
     position: relative;
     top: 15px;
