@@ -149,7 +149,7 @@
     width: 28%;
     position: relative;
     display:inline-block;
-        
+    z-index: 2;
 }
 .telefones{
     padding-left: 60px;
