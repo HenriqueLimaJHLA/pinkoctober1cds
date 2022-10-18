@@ -23,7 +23,7 @@
     text-decoration-style: none;
     color: #f6007b;
     position: relative;
-    right: 39.5px;
+    right: 38.7px;
 }
 .noMenu a{
     color: #0000CD;
@@ -114,7 +114,7 @@
     background-color: white;    
     position: fixed;
     top: 0;
-    left: -749px;  
+    left: -30%;  
     height: 100%;
     transition: 0.5s;
     width: 30%;
