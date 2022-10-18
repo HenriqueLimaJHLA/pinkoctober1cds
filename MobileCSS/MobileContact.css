@@ -148,6 +148,7 @@
 .menu-fechado {
     width: 28%;
     position: relative;
+    display:inline-block;
         
 }
 .telefones{
