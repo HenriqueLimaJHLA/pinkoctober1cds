@@ -53,19 +53,23 @@ function x3(){
             y = 0
 }
 
-function giraBotao1() {
-            var menu = document.getElementById('menuImg1')
+function giraBotao() {
+          var x = document.getElementById('menuImg1')
+          var y = document.getElementById('menuImg2').value
 
-            menuImg1.style.cssText= 'animation: rotate 5s infinite';
+          if(x === clicked){
+               
+               menuImg1.style.cssText= 'animation: rotate 5s infinite';
        
-            setTimeout(function(){menuImg1.style.cssText= 'animation: none'},1000)
+               setTimeout(function(){menuImg1.style.cssText= 'animation: none'},1000)
 
-}
-function giraBotao2() {
-            var menu = document.getElementById('menuImg2')
-
-            menuImg2.style.cssText= 'animation: rotate 5s infinite';
+          }
+          if(y === clicked){
+               
+               menuImg2.style.cssText= 'animation: rotate 5s infinite';
        
-            setTimeout(function(){menuImg2.style.cssText= 'animation: none'},1000)
+               setTimeout(function(){menuImg2.style.cssText= 'animation: none'},1000)
+
+          }
 
 }
