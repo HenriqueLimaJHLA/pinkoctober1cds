@@ -151,8 +151,9 @@
 
 }
 .menu-fechado {
+    width: 28%;
     position: relative;
-    top: 50px;
+    margin-left: 170px;    
 }
 .telefones{
     padding-left: 60px;
