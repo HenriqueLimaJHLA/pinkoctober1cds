@@ -36,9 +36,10 @@
     opacity: 60%;    
     position: relative;    
     left: 42px;    
-    top:1%;
     border-radius: 15px;    
     background-color:white;
+    margin-top: 15px;
+    margin-bottom: 50px;
 }
 footer{
     background-color: white;
