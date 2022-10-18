@@ -55,7 +55,7 @@ function x3(){
 
 function giraBotao() {
           var x = document.getElementById('menuImg1')
-          var y = document.getElementById('menuImg2').value
+          var y = document.getElementById('menuImg2')
 
           if(x === clicked){
                
