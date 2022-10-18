@@ -127,6 +127,12 @@
     padding-left: 25px;
    
 }
+.menuImgF{
+    width: 100%;
+    height: 100%;
+    padding-left: 270px;
+   
+}
 @keyframes rotate {
     0% {transform: rotate(360deg);}
     10% {transform: rotate(0deg);}
@@ -154,6 +160,10 @@
 .telefones{
     padding-left: 120px;
     
+}
+.imgTelefone{
+    width: 20px;
+    height: 20px;
     
 }
 .parteConteudo{
