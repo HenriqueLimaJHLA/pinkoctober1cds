@@ -65,7 +65,7 @@ function giraBotao() {
       
 
 }
-function giraBotao() {
+function giraBotao2() {
           var y = document.getElementById('menuImg2')
 
                menuImg2.style.cssText= 'animation: rotate 5s infinite';
