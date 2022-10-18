@@ -113,7 +113,7 @@
     background-color: white;    
     position: fixed;
     top: 0;
-    left: -780px;  
+    left: -35%;  
     height: 100%;
     transition: 0.5s;
     width: 35%;
@@ -144,9 +144,8 @@
 
 .menu-fechado {
     position: relative;
-    margin-left: 128px;
-    width: 15px;
-    height: 15px;
+    padding-left: 15px;
+    
 }
 .menu-aberto ul{
     position: relative;
