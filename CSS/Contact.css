@@ -132,7 +132,7 @@ a:hover{
     z-index: auto;
     
 }
-.menuImg{
+.menuImg, .menuImgF{
    width: 50%;
    height: 50%;
    
