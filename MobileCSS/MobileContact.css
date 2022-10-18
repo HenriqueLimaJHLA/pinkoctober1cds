@@ -131,6 +131,7 @@
     width: 100%;
     height: 100%;
     padding-left: 60px;
+    top: 80px;
 }
 @keyframes rotate {
     0% {transform: rotate(360deg);}
@@ -153,10 +154,10 @@
 .menu-fechado {
     width: 28%;
     position: relative;
-    margin-left: 170px;    
+        
 }
 .telefones{
-    padding-left: 60px;
+    padding-left: 50px;
     
 }
 ul a{
