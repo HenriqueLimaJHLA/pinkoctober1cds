@@ -183,3 +183,14 @@ footer{
 .imgTelefone{
     width: 20px;
     height: 20px;
+}
+
+ul a{
+    color: white;
+    text-decoration: none;
+    transition: 2s;
+}
+
+ul a:hover{
+    color:black;
+}    
