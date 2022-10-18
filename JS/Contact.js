@@ -55,21 +55,23 @@ function x3(){
 
 function giraBotao() {
           var x = document.getElementById('menuImg1')
+
+             menuImg1.style.cssText= 'animation: rotate 5s infinite';
+       
+             setTimeout(function(){menuImg1.style.cssText= 'animation: none'},1000)
+
+}
+          
+      
+
+}
+function giraBotao() {
           var y = document.getElementById('menuImg2')
 
-          if(x === clicked){
-               
-               menuImg1.style.cssText= 'animation: rotate 5s infinite';
-       
-               setTimeout(function(){menuImg1.style.cssText= 'animation: none'},1000)
-
-          }
-          if(y === clicked){
-               
                menuImg2.style.cssText= 'animation: rotate 5s infinite';
        
                setTimeout(function(){menuImg2.style.cssText= 'animation: none'},1000)
 
-          }
+          
 
 }
