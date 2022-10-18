@@ -117,24 +117,24 @@ footer{
 }
 @keyframes mudaImagem{
 
-     0%, 100%{
+     0 % , 100%{
 
-           background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQEFrrksWS1G2Kvn4_bSpB9Xgo-P6mRFZCKQ&usqp=CAU");
+           background-image :  url ( "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQEFrrksWS1G2Kvn4_bSpB9Xgo-P6mRFZCKQ&usqp=CAU" );
       }
-      20%{
+      20 % {
       
-           background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMWimWfRippApCNG3WTVJZzGtkdYRgGCtCJw&usqp=CAU");
+           background-image :  url ( "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgVgRX5c4LLMSRrlSxxiwComXrdVXAtQthgg&usqp=CAU" );
        }
-       40%{
+       40 % {
 
-           background-image: url("../Imagens/Fundo.jpg");
+           background-image :  url ( "../Imagens/Fundo.jpg" );
        }
-       60%{
+       60 % {
     
-           background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_MCWBDel_ntzU5fc7bfXqjaTBbOUzA9paxA&usqp=CAU");
+           background-image :  url ( "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_MCWBDel_ntzU5fc7bfXqjaTBbOUzA9paxA&usqp=CAU" );
        }
-       80%{
+       80 % {
 
-           background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTX0H5bVjj-ret7lJkXGIKTRLH8IUPvtIxdYw&usqp=CAU");
+           background-image :  url ( "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJWR5O-qfDDhohozxyzjazNTRQWO4fEecP8w&usqp=CAU" );
        }
 }
