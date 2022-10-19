@@ -196,3 +196,8 @@ ul a{
 ul a:hover{
     color:black;
 }    
+
+.loc{
+    width: 20px;
+    height: 20px;    
+}    
