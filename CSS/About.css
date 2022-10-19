@@ -138,3 +138,16 @@ footer{
     position: relative;
     left: 17px;    
 }
+
+.imgE{
+    width: 450px;
+    height: 500px;
+    display: grid; 
+    margin: 0 auto;
+    border-radius: 10px;     
+}
+
+.imgE:hover{
+    transform: scale(1.05);
+    transition: 2s;    
+}
