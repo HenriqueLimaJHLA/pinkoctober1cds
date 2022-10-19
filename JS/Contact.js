@@ -49,7 +49,7 @@ function x3(){
             falaMedico.style.cssText= 'display: none';
             oMapa.style.cssText= 'display: none';
         
-            setTimeout(function(){falaMedico.style.cssText= 'display: block'; nomeBotao.innerHTML= 'Buscar'; button.style.cssText= 'display: block';}, 1000)
+            setTimeout(function(){falaMedico.style.cssText= 'display: block'; nomeBotao.innerHTML= 'Search'; button.style.cssText= 'display: block';}, 1000)
             y = 0
 }
 
