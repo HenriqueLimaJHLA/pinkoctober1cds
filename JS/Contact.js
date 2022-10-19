@@ -42,7 +42,7 @@ function x1(){
 function x2(){
             falaMedico.style.cssText= 'display: none'; 
             oMapa.style.cssText= 'display: block'; 
-            nomeBotao.innerHTML= 'Voltar'
+            nomeBotao.innerHTML= 'Return'
             y= 1
 }
 function x3(){
