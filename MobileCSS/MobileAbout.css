@@ -32,12 +32,11 @@
 .conteudo {  
     height: 1000px;    
     color: black;    
-    width: 80%;    
-    opacity: 60%;    
+    width: 80%;       
     position: relative;    
     left: 42px;    
-    border-radius: 15px;    
-    background-color:white;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.6);
     margin-top: 15px;
     margin-bottom: 50px;
 }
@@ -55,4 +54,29 @@ footer{
     padding: 10px;
     font-family: roboto;
 
+}
+
+.pesquisa{
+    font-size: 15px;
+    color: black;
+    text-align: center;  
+}
+
+.tituloPesquisa{
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.img{
+    width: 320px;
+    height: 220px;
+    display: grid; 
+    margin: 0 auto;
+    border-radius: 10px;    
+}
+
+.img:hover {
+    transform: scale(1.05);
+    transition: 2s;    
 }
