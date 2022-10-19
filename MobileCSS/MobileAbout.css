@@ -32,9 +32,9 @@
 .conteudo {  
     height: 1000px;    
     color: black;    
-    width: 80%;       
+    width: 70%;       
     position: relative;    
-    left: 40px;    
+    left: 30px;    
     border-radius: 15px;
     background-color: rgba(255, 255, 255, 0.6);
     margin-top: 15px;
