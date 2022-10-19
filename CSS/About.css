@@ -42,7 +42,7 @@ a:hover{
     height: 1000px;
     color: black;
     width: 90%;
-    opacity: 60%;
+    background-color: rgba(255, 255, 255, 0.6);
     position: relative;
     left: 63px;
     border-radius: 15px;
@@ -67,14 +67,27 @@ footer{
     
 }
 
-.pesquisa {
+.pesquisa{
     font-size: 18px;
     color: black;
     text-align: center ;   
 }
 
-.tituloPesquisa {
+.tituloPesquisa{
     font-size: 18px;
     font-weight: bold;
     text-align: center;
+}
+
+.img{
+    width: 750px;
+    height: 500px;
+    display: grid; 
+    margin: 0 auto;
+    border-radius: 10px;    
+}
+
+.img:hover{
+    transform: scale(1.05);
+    transition: 2s;    
 }
