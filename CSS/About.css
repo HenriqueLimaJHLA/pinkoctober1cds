@@ -115,30 +115,6 @@ footer{
     0% {transform: rotate(0deg);}   
 }
 
-.titulofontes{
-    font-weight: bold;
-    font-size: 13px;
-}
-
-.fontes {
-    font-size: 12px;
-    text-decoration-line: none;
-    color: white;
-    position: relative;
-    left: 80px;
-    bottom: 18px;
-}
-
-.fontes:hover{
-    color: #f6007b;
-    transition: 2s;    
-}
-
-.divFonte{
-    position: relative;
-    left: 17px;    
-}
-
 .imgE{
     width: 450px;
     height: 500px;
@@ -151,3 +127,11 @@ footer{
     transform: scale(1.05);
     transition: 2s;    
 }
+
+.imgCura{
+    height: ;
+    width: ;
+    display: grid; 
+    margin: 0 auto;
+    border-radius: 10px;
+}   
