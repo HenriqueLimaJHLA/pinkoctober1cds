@@ -46,6 +46,7 @@ a:hover{
     position: relative;
     left: 63px;
     border-radius: 15px;
+    box-shadow: 2px 2px 25px #000;
     font-family: roboto;
     margin-top: 50px;
     margin-bottom: 50px;
