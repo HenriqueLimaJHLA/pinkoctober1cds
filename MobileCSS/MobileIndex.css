@@ -69,17 +69,19 @@
     content: none;
     
 }    
-
-.parteConteudo{
-    height: 550px;
-    padding-top: 10px;
-    padding-bottom: 50px;
-    color: #000;
-    background: #fff;
-    opacity: 85%;
-    z-index: 0;
+.conteudo {  
+    height: 3500px;    
+    color: black;    
+    width: 75%;       
+    position: relative;    
+    left: 35px;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.6);
+    box-shadow: 2px 2px 25px #000;
+    margin-top: 15px;
+    margin-bottom: 50px;
+    padding: 15px;
 }
-
 footer{
     background-color: white;
     height: 150px;
