@@ -78,7 +78,31 @@ footer{
     border-radius: 10px;    
 }
 
-.img:hover {
+.img:hover{
     transform: scale(1.05);
     transition: 2s;    
+}
+
+.titulofontes{
+    font-weight: bold;
+    font-size: 8px;
+}
+
+.fontes{
+    font-size: 8px;
+    text-decoration-line: none;
+    color: white;
+    position: relative;
+    left: 50px;
+    bottom: 17px;
+}
+
+.fontes:hover{
+    color: #f6007b;
+    transition: 2s;    
+}
+
+.divFonte{
+    position: relative;
+    left: 0;    
 }
