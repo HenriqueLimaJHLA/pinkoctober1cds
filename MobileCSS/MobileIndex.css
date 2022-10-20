@@ -140,3 +140,8 @@ footer{
            background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJWR5O-qfDDhohozxyzjazNTRQWO4fEecP8w&usqp=CAU");
        }
 }
+
+.parteTexto{ 
+   position: relative;
+   top: 150px;
+}
