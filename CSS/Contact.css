@@ -65,7 +65,7 @@ a:hover{
 .imgEnome{
     width: 100px;
     position: relative;
-    left: 25px;
+    left: 130px;
 }   
 
 .p {
@@ -98,7 +98,8 @@ a:hover{
     font-size: 16px;
     font-family: roboto;
 }
-.falaMedico {
+
+#falaMedico {
     z-index: 0;
 }
 .button:hover {
@@ -163,10 +164,6 @@ a:hover{
     position: relative;
     margin-left: 170px;    
 }
-#oMapa{
-   display: none;
-}
-
 
 footer{
     background-color: white;
@@ -203,4 +200,10 @@ ul a:hover{
 .loc{
     width: 20px;
     height: 20px;    
+}   
+
+#oMapa{
+    display: none;
+    position: relative;
+    bottom: 15px;
 }    
