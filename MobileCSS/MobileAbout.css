@@ -61,13 +61,15 @@ footer{
 .pesquisa{
     font-size: 15px;
     color: black;
-    text-align: center;  
+    text-align: center;
+    font-family: roboto;
 }
 
 .tituloPesquisa{
     font-size: 23px;
     font-weight: bold;
     text-align: center;
+    font-family: none;
 }
 
 .img{
