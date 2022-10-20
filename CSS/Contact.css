@@ -50,15 +50,16 @@ a:hover{
     width: 100px; 
     border-radius: 50%;  
     position: relative;
-    top: 1px;
+    top: 8px;
+    margin-left: 5%;
     box-shadow: 1px 1px 20px black;
 }
 
 .nome {
     color: white;
-    margin-left: 1.5%; 
+    margin-left: 6.4%; 
     position: relative;
-    top: 1px; 
+    top: 9px; 
     font-size: 3vh;
 }
 
@@ -69,14 +70,15 @@ a:hover{
    box-shadow: 2px 2px 25px black;
    background: white; 
    position: relative;
-   margin-left: 12%;
+   margin-left: 16%;
    bottom: 120px;
    color: black;
 }
 
 .text {
     position: relative;
-    margin-left: 3%;
+    top: 20px;
+    text-align: center;
     font-size: 3vh;
 }
 
