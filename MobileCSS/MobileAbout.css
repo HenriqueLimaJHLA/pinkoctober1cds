@@ -83,30 +83,6 @@ footer{
     transition: 2s;    
 }
 
-.titulofontes{
-    font-weight: bold;
-    font-size: 8px;
-}
-
-.fontes{
-    font-size: 8px;
-    text-decoration-line: none;
-    color: white;
-    position: relative;
-    left: 50px;
-    bottom: 16.5px;
-}
-
-.fontes:hover{
-    color: #f6007b;
-    transition: 2s;    
-}
-
-.divFonte{
-    position: relative;
-    left: 0;    
-}
-
 .imgE{
     width: 250px;
     height: 300px;
@@ -119,3 +95,11 @@ footer{
     transform: scale(1.05);
     transition: 2s;    
 }
+
+.imgCura{
+    height: 300px;
+    width: 300px;
+    display: grid; 
+    margin: 0 auto;
+    border-radius: 10px;
+}   
