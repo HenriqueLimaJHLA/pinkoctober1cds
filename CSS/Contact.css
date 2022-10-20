@@ -218,6 +218,8 @@ ul a:hover{
 .imgInsta{
     width: 30px;
     height: 30px;
+    position: relative;
+    top: 13px;
 }
 
 .insta a{
