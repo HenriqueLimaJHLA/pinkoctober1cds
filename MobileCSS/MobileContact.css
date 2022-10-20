@@ -204,7 +204,7 @@ footer{
 
 .telefones a{
    word-spacing: 2px;
-   font-size: 14px;
+   font-size: 10px;
    font-weight: 280;
    color: black;
 }
@@ -215,7 +215,17 @@ footer{
 }
 
 .insta a{
-   font-size: 14px;
+   font-size: 10px;
    font-weight: 280;
    color: black;
+   position: relative;
+   left: 0;
+}
+
+.Contato{
+font-size: 14px;   
+}
+
+.Instagram{
+font-size: 14px;   
 }
