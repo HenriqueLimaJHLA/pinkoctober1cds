@@ -226,3 +226,15 @@ ul a:hover{
    color: black;
    position: relative; 
 }
+
+.Contato{
+    font-size: 20px;
+    color: deeppink;
+    text-align: center;
+} 
+
+.Instagram{
+    font-size: 20px;
+    color: deeppink;
+    text-align: center;
+} 
