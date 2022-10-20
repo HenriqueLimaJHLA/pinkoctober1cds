@@ -113,7 +113,7 @@ footer{
     width: 320px;
     height: 220px;
     position: relative;
-    top: 60px;
+    top: 75px;
     background-size: cover;
     animation: mudaImagemMobile infinite 30s;
     z-index: 2;
