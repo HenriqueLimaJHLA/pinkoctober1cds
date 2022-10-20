@@ -39,7 +39,7 @@ a:hover{
     transition: 1s;
 }   
 .conteudo {
-    height: 5000px;
+    height: 5500px;
     color: black;
     width: 90%;
     background-color: rgba(255, 255, 255, 0.6);
@@ -79,7 +79,7 @@ footer{
     font-weight: bold;
     text-align: center;
     color: #ff007f;
-    -webkit-text-stroke-color: #fff;
+    -webkit-text-stroke-color: black;
     -webkit-text-stroke-width: 1px;
 }
 
@@ -162,7 +162,7 @@ footer{
     font-size: 35px;
     font-weight: bold;
     color: #ff007f;
-    -webkit-text-stroke-color: #fff;
+    -webkit-text-stroke-color: black;
     -webkit-text-stroke-width: 1px;
     position: relative;
     left: 10px;
