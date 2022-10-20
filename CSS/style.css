@@ -180,7 +180,15 @@ footer{
        }
 }
 .tituloPesquisa{
-    font-size: 23px;
+    font-size: 35px;
     font-weight: bold;
     text-align: center;
+    color: #ff007f;
+    -webkit-text-stroke-color: #000;
+    -webkit-text-stroke-width: 1px;
+}
+
+.parteTexto{ 
+   position: relative;
+   top: 200px;
 }
