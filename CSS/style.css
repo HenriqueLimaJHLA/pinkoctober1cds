@@ -112,8 +112,7 @@ footer{
 
 }
 
-.tt {
-   transition: 2s; 
+.tt { 
    position: relative;
    margin-left: 20px;
 
@@ -121,10 +120,12 @@ footer{
 
 .tt:hover{
    opacity: 0.6;
+   transition: 2s;
 }
 
 .insta:hover{
    opacity: 0.6;
+   transition: 2s;
 }
 
 .l {
