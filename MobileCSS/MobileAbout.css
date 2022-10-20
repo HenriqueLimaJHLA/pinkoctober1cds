@@ -30,7 +30,7 @@
 
 }
 .conteudo {  
-    height: 6000px;    
+    height: 7250px;    
     color: black;    
     width: 75%;       
     position: relative;    
@@ -131,32 +131,29 @@ footer{
 }
 
 .Patricia{
-    height: px;
-    width: px;
+    height: 290px;
+    width: 210px;
     display: grid; 
     margin: 0 auto;
     border-radius: 10px;    
 }
 
 .Angelina{
-    height: px;
-    width: px;
+    height: 290px;
+    width: 210px;
     display: grid; 
     margin: 0 auto;
     border-radius: 10px;
 }
 
 .Elba{
-    height: px;
-    width: px;
+    height: 290px;
     display: grid; 
     margin: 0 auto;
     border-radius: 10px;
 }
 
 .Roberto{
-    height: px;
-    width: px;
     display: grid; 
     margin: 0 auto;
     border-radius: 10px;
