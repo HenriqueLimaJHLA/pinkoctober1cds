@@ -69,7 +69,6 @@ footer{
     font-size: 23px;
     font-weight: bold;
     text-align: center;
-    font-family: none;
 }
 
 .img{
@@ -112,8 +111,8 @@ footer{
 }
 
 .imgP{
-    height: 280px;
-    width: 250px;
+    height: 225px;
+    width: 220px;
     display: grid; 
     margin: 0 auto;
     border-radius: 10px;
@@ -122,4 +121,11 @@ footer{
 .imgP:hover{
     transform: scale(1.05);
     transition: 2s;    
+}
+
+.tituloPesquisaA{
+    font-size: 23px;
+    font-weight: bold;
+    position: relative;
+    left: 5px;
 }
