@@ -216,25 +216,26 @@ ul a:hover{
 }
 
 .imgInsta{
-    width: 35px;
-    height: 35px;
+    width: 30px;
+    height: 30px;
 }
 
 .insta a{
    font-size: 14px;
    font-weight: 280;
    color: black;
-   position: relative; 
+   position: relative;
+   bottom: 5px; 
 }
 
 .Contato{
     font-size: 20px;
-    color: deeppink;
+    color: black;
     text-align: center;
 } 
 
 .Instagram{
     font-size: 20px;
-    color: deeppink;
+    color: black;
     text-align: center;
 } 
