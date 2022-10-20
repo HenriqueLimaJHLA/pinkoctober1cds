@@ -119,11 +119,14 @@ footer{
 
 }
 
-.tt:hover {
-    border-color: #00acee;
-    background-color: #00acee;
-
+.tt:hover{
+   opacity: 0.6;
 }
+
+.insta:hover{
+   opacity: 0.6;
+}
+
 .l {
     width: 100px;
     height: 120px;
