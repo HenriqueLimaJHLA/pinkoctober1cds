@@ -207,3 +207,10 @@ ul a:hover{
     position: relative;
     bottom: 15px;
 }    
+
+.telefones a{
+   word-spacing: 2px;
+   font-size: 14px;
+   font-weight: 280;
+   color: black;
+}
