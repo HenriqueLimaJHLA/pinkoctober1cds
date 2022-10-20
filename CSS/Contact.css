@@ -64,6 +64,7 @@ a:hover{
 
 .imgEnome{
     width: 100px;
+    position: relative;
     left: 25px;
 }   
 
