@@ -33,7 +33,6 @@
     height: 50px;
     width: 50px; 
     border-radius: 50%;    
-    margin-left: 3%;
     position: relative;
     box-shadow: 1px 1px 20px black;
 }
@@ -42,7 +41,6 @@
     color: white;
     font-size: 12px; 
     position: relative;
-    margin-left: 16px;
     top: 3px;
 }
 
@@ -54,19 +52,12 @@
    background: white; 
    position: relative;
    bottom: 75px;
-   margin-left: 18%;
    color: black;
-   padding-top: 10px;
    font-size: 12px; 
 }
 
-.p,.text p{
-    padding: 8px; 
-}    
-
 .text {
     position: relative;
-    margin-left: 4%;
     font-size: 12px;
 }
 
@@ -76,7 +67,6 @@
     width: 70px;
     height: 35px;
     position: relative;
-    margin-left: 41.5%;
     bottom: 55px;    
     color: white;
     background-color: #f6007b;
@@ -84,8 +74,6 @@
     font-family: roboto;
 }
 .parteMedico {
-    position: relative;
-    margin-left: 15px;
     z-index: 0;
 }
 .button:hover {
