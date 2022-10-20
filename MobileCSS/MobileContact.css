@@ -193,12 +193,29 @@ footer{
 
 .oMapa{
     display: none;
-
 }
+
 .mapa{
     width: 300px;
     height: 200px;
     position: relative;
     bottom: 25px;
+}
 
+.telefones a{
+   word-spacing: 2px;
+   font-size: 14px;
+   font-weight: 280;
+   color: black;
+}
+
+.imgInsta{
+    width: 20px;
+    height: 20px;
+}
+
+.insta a{
+   font-size: 14px;
+   font-weight: 280;
+   color: black;
 }
