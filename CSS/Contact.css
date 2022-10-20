@@ -57,6 +57,7 @@ a:hover{
 .nome {
     color: white;
     position: relative;
+    left: 16px;
     top: 9px; 
     font-size: 23px;
 }
