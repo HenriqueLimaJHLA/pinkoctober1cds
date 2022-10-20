@@ -135,3 +135,8 @@ footer{
     margin: 0 auto;
     border-radius: 10px;
 }   
+
+.imgCura:hover{
+    transform: scale(1.05);
+    transition: 2s;    
+}
