@@ -140,3 +140,16 @@ footer{
     transform: scale(1.05);
     transition: 2s;    
 }
+
+.imgP{
+    height: 450px;
+    width: 600px;
+    display: grid; 
+    margin: 0 auto;
+    border-radius: 10px;
+}   
+
+.imgP:hover{
+    transform: scale(1.05);
+    transition: 2s;    
+}
