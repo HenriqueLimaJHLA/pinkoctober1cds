@@ -33,19 +33,26 @@
     height: 50px;
     width: 50px; 
     border-radius: 50%;    
-    position: relative;
     box-shadow: 1px 1px 20px black;
+}
+
+.imgEnome{
+   width: 100px;
+   position: relative;
+   bottom: 12px;
+   left: 45px;
 }
 
 .nome {
     color: white;
     font-size: 12px; 
     position: relative;
-    top: 3px;
+    left: 8px;
+    top: 5px;
 }
 
 .p {
-   height: 100px;
+   height: 125px;
    width: 200px;
    border-radius: 15px;
    box-shadow: 2px 2px 25px black;
@@ -64,8 +71,8 @@
 .button {
     border: none;
     border-radius: 8%;
-    width: 70px;
-    height: 35px;
+    width: 60px;
+    height: 30px;
     position: relative;
     bottom: 55px;    
     color: white;
