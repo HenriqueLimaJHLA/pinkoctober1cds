@@ -179,4 +179,8 @@ footer{
            background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJWR5O-qfDDhohozxyzjazNTRQWO4fEecP8w&usqp=CAU");
        }
 }
-
+.tituloPesquisa{
+    font-size: 23px;
+    font-weight: bold;
+    text-align: center;
+}
