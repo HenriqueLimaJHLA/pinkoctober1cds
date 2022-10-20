@@ -146,3 +146,11 @@ footer{
    position: relative;
    top: 220px;
 }
+.tituloPesquisa{
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+    color: #ff007f;
+    -webkit-text-stroke-color: #000;
+    -webkit-text-stroke-width: 1px;
+}
