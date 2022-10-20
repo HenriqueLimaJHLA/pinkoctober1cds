@@ -48,7 +48,7 @@
 
 .p {
    height: 100px;
-   width: 250px;
+   width: 200px;
    border-radius: 15px;
    box-shadow: 2px 2px 25px black;
    background: white; 
@@ -175,7 +175,7 @@ ul a{
     
 }
 .parteConteudo{
-    height: 1000px;
+    height: 500px;
     padding-top: 80px;
     padding-bottom: 50px;
     color: white;
