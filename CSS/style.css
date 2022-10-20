@@ -190,5 +190,6 @@ footer{
 
 .parteTexto{ 
    position: relative;
-   top: 200px;
+   top: 500px;
+   padding: 20px;
 }
