@@ -48,7 +48,6 @@ a:hover{
     padding: 15px;
     border-radius: 15px;
     box-shadow: 2px 2px 25px #000;
-    font-family: roboto;
     margin-top: 50px;
     margin-bottom: 50px;
 } 
@@ -71,7 +70,8 @@ footer{
 .pesquisa{
     font-size: 18px;
     color: black;
-    text-align: center ;   
+    text-align: center;
+    font-family: roboto;   
 }
 
 .tituloPesquisa{
