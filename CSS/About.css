@@ -80,7 +80,7 @@ footer{
     text-align: center;
     color: #ff007f;
     -webkit-text-stroke-color: #fff;
-    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-width: 0.25px;
 }
 
 .img{
