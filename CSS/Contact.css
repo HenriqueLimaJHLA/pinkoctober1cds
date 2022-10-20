@@ -214,3 +214,14 @@ ul a:hover{
    font-weight: 280;
    color: black;
 }
+
+.imgInsta{
+    width: 20px;
+    height: 20px;
+}
+
+.insta a{
+   font-size: 14px;
+   font-weight: 280;
+   color: black;
+}
