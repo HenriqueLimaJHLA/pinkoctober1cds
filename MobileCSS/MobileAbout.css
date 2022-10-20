@@ -108,3 +108,16 @@ footer{
     transform: scale(1.05);
     transition: 2s;    
 }
+
+.imgP{
+    height: 300px;
+    width: 225px;
+    display: grid; 
+    margin: 0 auto;
+    border-radius: 10px;
+}   
+
+.imgP:hover{
+    transform: scale(1.05);
+    transition: 2s;    
+}
