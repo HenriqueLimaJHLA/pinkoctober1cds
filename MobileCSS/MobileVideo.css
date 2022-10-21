@@ -40,9 +40,11 @@
     padding: 20px;
     width: 320px;
     height: 220px;
-    position: relative;
-
+    border-radius: 30px;
+    background-color: white;
+    box-shadow: 2px 2px 25px black;
 }
+
 .video {
     width: 320px;
     height: 220px;
