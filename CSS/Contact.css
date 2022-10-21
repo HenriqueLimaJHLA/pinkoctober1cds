@@ -136,7 +136,7 @@ a:hover{
     z-index: auto;
     
 }
-.menuImg{
+.menuImg, .menuImgF{
    width: 50%;
    height: 50%;
 }
@@ -241,9 +241,3 @@ ul a:hover{
     text-align: center;
 } 
 
-.menuImgF{
-    width: 40%;
-    height: 40%;
-    position: relative;
-    left: 35px;
-}
