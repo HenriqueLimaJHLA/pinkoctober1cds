@@ -43,8 +43,7 @@ a:hover{
     padding-top: 20px;
 } 
 .video {
-    border-radius: 20px;
-    width: 80%; 
+    border-radius: 20px; 
     height: 550px;
     box-shadow: 1px 1px 50px black;
     transition: 1s;
