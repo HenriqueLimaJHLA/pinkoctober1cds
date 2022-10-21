@@ -136,10 +136,9 @@ a:hover{
     z-index: auto;
     
 }
-.menuImg, .menuImgF{
+.menuImg{
    width: 50%;
    height: 50%;
-   
 }
 @keyframes rotate {
     0% {transform: rotate(360deg);}
@@ -241,3 +240,10 @@ ul a:hover{
     color: black;
     text-align: center;
 } 
+
+.menuImgF{
+    width: 40%;
+    height: 40%;
+    position: relative;
+    left: 35px;
+}
